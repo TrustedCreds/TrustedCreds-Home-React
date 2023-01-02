@@ -1,0 +1,1021 @@
+.business-signup-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+.business-signup-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.business-signup-navlink {
+  font-size: 26px;
+  font-style: inherit;
+  font-family: Alegreya Sans SC;
+  font-weight: 400;
+  text-decoration: none;
+}
+.business-signup-desktop-menu {
+  display: flex;
+}
+.business-signup-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.business-signup-text {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+}
+.business-signup-text01 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+}
+.business-signup-text02 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+}
+.business-signup-text03 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+}
+.business-signup-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.business-signup-login {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.business-signup-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.business-signup-dropdown-toggle {
+  fill: #595959;
+  color: #f9f7f7;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 56px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #060000;
+}
+.business-signup-text04 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.business-signup-dropdown-arrow {
+  transition: 0.3s;
+}
+.business-signup-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: auto;
+  transition: 0.3s;
+  margin-bottom: auto;
+}
+.business-signup-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #fdfcfc;
+  border-width: 1px;
+  border-radius: 5px;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #060000;
+  list-style-position: inside;
+}
+.business-signup-personal {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.business-signup-dropdown-toggle1 {
+  fill: #595959;
+  color: #fbfafa;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.business-signup-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.business-signup-personal1 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 500;
+  text-decoration: none;
+}
+.business-signup-business {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.business-signup-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.business-signup-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.business-signup-business1 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 500;
+  text-decoration: none;
+}
+.business-signup-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.business-signup-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.business-signup-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.business-signup-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.business-signup-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.business-signup-image {
+  height: 2rem;
+}
+.business-signup-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.business-signup-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.business-signup-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.business-signup-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-text06 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-text08 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-text09 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.business-signup-login1 {
+  margin-right: var(--dl-space-space-twounits);
+}
+.business-signup-icon-group {
+  display: flex;
+}
+.business-signup-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.business-signup-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.business-signup-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.business-signup-hero {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #5228F5;
+}
+.business-signup-text10 {
+  color: rgb(255, 255, 255);
+  font-size: 52px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  font-weight: 400;
+  line-height: 80px;
+}
+.business-signup-text11 {
+  color: rgb(238, 233, 254);
+  width: 100%;
+  font-size: 41px;
+  max-width: 800px;
+  margin-top: 16px;
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  line-height: 30px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.business-signup-quote-container {
+  width: 100%;
+  height: 121px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
+  flex-direction: column;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: #000000;
+}
+.business-signup-quote {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.business-signup-message {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  max-width: auto;
+  font-style: italic;
+  font-family: Alegreya Sans SC;
+  font-weight: 100;
+  line-height: 52px;
+}
+.business-signup-quote1 {
+  color: rgb(151, 126, 249);
+  width: 100%;
+  font-size: 20px;
+  max-width: 800px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+}
+.business-signup-signup-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: #088756;
+}
+.business-signup-text12 {
+  color: #ffffff;
+  font-size: 32px;
+  align-self: center;
+  font-family: Alegreya Sans SC;
+}
+.business-signup-text13 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.business-signup-centered-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  max-width: 1200px;
+  align-items: flex-end;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.business-signup-form {
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.business-signup-text20 {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: underline;
+}
+.business-signup-text21 {
+  font-style: italic;
+  font-family: Alegreya Sans SC;
+  font-weight: 100;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.business-signup-text22 {
+  color: #ffffff;
+}
+.business-signup-text23 {
+  color: #080500;
+}
+.business-signup-text24 {
+  color: #080500;
+}
+.business-signup-text25 {
+  color: #ffffff;
+}
+.business-signup-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.business-signup-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.business-signup-text26 {
+  padding: 0.5rem;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-text27 {
+  color: #fdfdfd;
+}
+.business-signup-text28 {
+  color: var(--dl-color-gray-black);
+}
+.business-signup-text29 {
+  color: #fdfdfd;
+}
+.business-signup-text30 {
+  color: rgb(253, 253, 253);
+  padding: 0.5rem;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-text32 {
+  color: var(--dl-color-gray-black);
+}
+.business-signup-text34 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text35 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text37 {
+  color: #040000;
+}
+.business-signup-text39 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text41 {
+  color: #040000;
+}
+.business-signup-text43 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text44 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text47 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text49 {
+  color: var(--dl-color-gray-black);
+}
+.business-signup-text51 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text53 {
+  color: var(--dl-color-gray-black);
+}
+.business-signup-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.business-signup-textinput {
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-textinput1 {
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-select {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-textinput2 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-textinput3 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-textinput4 {
+  flex: 0;
+  font-size: 18px;
+  min-width: auto;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: lowercase;
+}
+.business-signup-select1 {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-textarea {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-textinput5 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-button {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  align-self: center;
+  font-family: Alegreya Sans SC;
+  border-radius: 56px;
+  background-color: rgb(0, 0, 0);
+}
+.business-signup-footer {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.business-signup-text55 {
+  font-family: Alegreya Sans SC;
+}
+.business-signup-text56 {
+  font-family: Alegreya Sans SC;
+}
+@media(max-width: 1600px) {
+  .business-signup-navlink {
+    font-size: 26px;
+    font-style: inherit;
+    font-family: Alegreya Sans SC;
+    font-weight: 400;
+  }
+  .business-signup-text01 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text02 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text03 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-login {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-dropdown-toggle {
+    color: #f9f8f8;
+    border-radius: 56px;
+    background-color: #040000;
+  }
+  .business-signup-text04 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .business-signup-dropdown-list {
+    display: none;
+    border-radius: 5px;
+  }
+  .business-signup-personal1 {
+    font-size: 16px;
+  }
+  .business-signup-business1 {
+    font-size: 16px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-hero {
+    height: 200px;
+    align-self: center;
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .business-signup-signup-form {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .business-signup-text12 {
+    color: #ffffff;
+    font-size: 32px;
+    align-self: center;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text13 {
+    color: #ffffff;
+    font-size: 26px;
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+    font-family: Alegreya Sans SC;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 1200px) {
+  .business-signup-navlink {
+    font-size: 26px;
+    font-style: inherit;
+    font-family: Alegreya Sans SC;
+    font-weight: 400;
+  }
+  .business-signup-text {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text01 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text02 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text03 {
+    font-size: 18px;
+  }
+  .business-signup-login {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-dropdown-toggle {
+    color: #f7f6f6;
+    border-radius: 56px;
+    background-color: #040000;
+  }
+  .business-signup-text04 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .business-signup-personal1 {
+    font-size: 16px;
+  }
+  .business-signup-business1 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .business-signup-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .business-signup-text10 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 52px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 400;
+    line-height: 80px;
+  }
+  .business-signup-text11 {
+    color: rgb(238, 233, 254);
+    width: 100%;
+    font-size: 41px;
+    font-family: Alegreya Sans SC;
+    line-height: 30px;
+  }
+  .business-signup-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    align-self: center;
+    text-align: left;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text13 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: left;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text14 {
+    font-size: 26px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text15 {
+    font-size: 26px;
+  }
+  .business-signup-centered-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .business-signup-form {
+    width: 100%;
+    align-self: stretch;
+  }
+  .business-signup-footer {
+    background-color: #ffffff;
+  }
+  .business-signup-text55 {
+    font-size: 26px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .business-signup-text56 {
+    color: #000000;
+    font-family: Alegreya Sans SC;
+  }
+}
+@media(max-width: 991px) {
+  .business-signup-personal1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .business-signup-hero {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .business-signup-quote-container {
+    padding-top: var(--dl-space-space-sevenunits);
+    padding-bottom: var(--dl-space-space-sevenunits);
+  }
+  .business-signup-message {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 40px;
+    max-width: 800px;
+    font-style: italic;
+    font-family: Alegreya Sans SC;
+    font-weight: 100;
+    line-height: 52px;
+  }
+  .business-signup-centered-container {
+    justify-content: flex-start;
+  }
+  .business-signup-form {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .business-signup-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .business-signup-desktop-menu {
+    display: none;
+  }
+  .business-signup-text01 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .business-signup-text02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .business-signup-text03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .business-signup-btn-group {
+    display: none;
+  }
+  .business-signup-business1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .business-signup-burger-menu {
+    display: flex;
+  }
+  .business-signup-hero {
+    height: 300px;
+    position: relative;
+    align-self: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    background-color: var(--dl-color-template-blue-bg);
+  }
+  .business-signup-text10 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .business-signup-text11 {
+    color: rgb(238, 233, 254);
+    font-size: 16px;
+    margin-top: var(--dl-space-space-unit);
+    line-height: 24px;
+  }
+  .business-signup-quote-container {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .business-signup-message {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .business-signup-quote1 {
+    font-size: 14px;
+    max-width: 800px;
+  }
+  .business-signup-signup-form {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .business-signup-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .business-signup-text56 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .business-signup-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .business-signup-mobile-menu {
+    padding: 16px;
+  }
+  .business-signup-hero {
+    height: 300px;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .business-signup-text11 {
+    color: #EEE9FE;
+  }
+  .business-signup-signup-form {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .business-signup-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .business-signup-text56 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

@@ -1,0 +1,26 @@
+.branding-container {
+  display: flex;
+  position: relative;
+}
+.branding-branding {
+  width: var(--dl-size-size-large);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
+@media(max-width: 1200px) {
+  .branding-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 991px) {
+  .branding-branding {
+    width: var(--dl-size-size-medium);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 479px) {
+  .branding-root-class-name {
+    align-self: center;
+  }
+}

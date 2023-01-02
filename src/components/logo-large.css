@@ -1,0 +1,19 @@
+.logo-large-container {
+  display: flex;
+  position: relative;
+}
+.logo-large-logo {
+  width: 250px;
+  margin-left: var(--dl-space-space-halfunit);
+}
+@media(max-width: 1200px) {
+  .logo-large-logo {
+    width: 100%;
+    max-width: auto;
+  }
+}
+@media(max-width: 991px) {
+  .logo-large-logo {
+    width: 64px;
+  }
+}

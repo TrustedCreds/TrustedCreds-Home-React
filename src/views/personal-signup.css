@@ -1,0 +1,997 @@
+.personal-signup-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+.personal-signup-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.personal-signup-navlink {
+  font-size: 26px;
+  font-style: inherit;
+  font-family: Alegreya Sans SC;
+  font-weight: 400;
+  text-decoration: none;
+}
+.personal-signup-desktop-menu {
+  display: flex;
+}
+.personal-signup-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.personal-signup-text {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+}
+.personal-signup-text01 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+}
+.personal-signup-text02 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+}
+.personal-signup-text03 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+}
+.personal-signup-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.personal-signup-login {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.personal-signup-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.personal-signup-dropdown-toggle {
+  fill: #595959;
+  color: #f9f7f7;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 56px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: #060000;
+}
+.personal-signup-text04 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.personal-signup-dropdown-arrow {
+  transition: 0.3s;
+}
+.personal-signup-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: auto;
+  transition: 0.3s;
+  margin-bottom: auto;
+}
+.personal-signup-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #fdfcfc;
+  border-width: 1px;
+  border-radius: 5px;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #060000;
+  list-style-position: inside;
+}
+.personal-signup-personal {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.personal-signup-dropdown-toggle1 {
+  fill: #595959;
+  color: #fbfafa;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.personal-signup-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.personal-signup-personal1 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 500;
+  text-decoration: none;
+}
+.personal-signup-business {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.personal-signup-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.personal-signup-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.personal-signup-business1 {
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 500;
+  text-decoration: none;
+}
+.personal-signup-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.personal-signup-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.personal-signup-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.personal-signup-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.personal-signup-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.personal-signup-image {
+  height: 2rem;
+}
+.personal-signup-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personal-signup-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.personal-signup-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.personal-signup-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-text06 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-text08 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-text09 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.personal-signup-login1 {
+  margin-right: var(--dl-space-space-twounits);
+}
+.personal-signup-icon-group {
+  display: flex;
+}
+.personal-signup-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.personal-signup-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.personal-signup-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.personal-signup-hero {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #5228F5;
+}
+.personal-signup-text10 {
+  color: rgb(255, 255, 255);
+  font-size: 52px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  font-weight: 400;
+  line-height: 80px;
+}
+.personal-signup-text11 {
+  color: rgb(238, 233, 254);
+  width: 100%;
+  font-size: 41px;
+  max-width: 800px;
+  margin-top: 16px;
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  line-height: 30px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.personal-signup-quote-container {
+  width: 100%;
+  height: 121px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: var(--dl-space-space-sevenunits);
+  padding-right: var(--dl-space-space-sevenunits);
+  flex-direction: column;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: #000000;
+}
+.personal-signup-quote {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.personal-signup-message {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  max-width: auto;
+  font-style: italic;
+  font-family: Alegreya Sans SC;
+  font-weight: 100;
+  line-height: 52px;
+}
+.personal-signup-quote1 {
+  color: rgb(151, 126, 249);
+  width: 100%;
+  font-size: 20px;
+  max-width: 800px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Alegreya Sans SC;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+}
+.personal-signup-signup-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: #211062;
+}
+.personal-signup-text12 {
+  color: #ffffff;
+  font-size: 32px;
+  align-self: center;
+  font-family: Alegreya Sans SC;
+}
+.personal-signup-text13 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.personal-signup-centered-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  max-width: 1200px;
+  align-items: flex-end;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.personal-signup-form {
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.personal-signup-text20 {
+  color: #ffffff;
+  font-size: 23px;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: underline;
+}
+.personal-signup-text21 {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-family: Alegreya Sans SC;
+  font-weight: 100;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.personal-signup-text23 {
+  color: var(--dl-color-primary-700);
+}
+.personal-signup-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.personal-signup-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.personal-signup-text25 {
+  padding: 0.5rem;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-text26 {
+  color: #fdfdfd;
+}
+.personal-signup-text27 {
+  color: var(--dl-color-primary-700);
+}
+.personal-signup-text28 {
+  color: #fdfdfd;
+}
+.personal-signup-text29 {
+  color: rgb(253, 253, 253);
+  padding: 0.5rem;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-text30 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.personal-signup-text32 {
+  color: var(--dl-color-primary-700);
+}
+.personal-signup-text34 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.personal-signup-text35 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.personal-signup-text36 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.personal-signup-text38 {
+  color: var(--dl-color-primary-700);
+}
+.personal-signup-text40 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.personal-signup-text42 {
+  color: var(--dl-color-primary-700);
+}
+.personal-signup-text44 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.personal-signup-text46 {
+  color: var(--dl-color-primary-700);
+}
+.personal-signup-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.personal-signup-textinput {
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-textinput1 {
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-textinput2 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-textinput3 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-textinput4 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-textinput5 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-textinput6 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-textinput7 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-signup-button {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  align-self: center;
+  font-family: Alegreya Sans SC;
+  border-radius: 56px;
+  background-color: rgb(0, 0, 0);
+}
+.personal-signup-footer {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.personal-signup-text48 {
+  font-family: Alegreya Sans SC;
+}
+.personal-signup-text49 {
+  font-family: Alegreya Sans SC;
+}
+@media(max-width: 1600px) {
+  .personal-signup-navlink {
+    font-size: 26px;
+    font-style: inherit;
+    font-family: Alegreya Sans SC;
+    font-weight: 400;
+  }
+  .personal-signup-text01 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text02 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text03 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-login {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-dropdown-toggle {
+    color: #f9f8f8;
+    border-radius: 56px;
+    background-color: #040000;
+  }
+  .personal-signup-text04 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .personal-signup-dropdown-list {
+    display: none;
+    border-radius: 5px;
+  }
+  .personal-signup-personal1 {
+    font-size: 16px;
+  }
+  .personal-signup-business1 {
+    font-size: 16px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-hero {
+    height: 200px;
+    align-self: center;
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .personal-signup-signup-form {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .personal-signup-text12 {
+    color: #ffffff;
+    font-size: 32px;
+    align-self: center;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text13 {
+    color: #ffffff;
+    font-size: 26px;
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+    font-family: Alegreya Sans SC;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 1200px) {
+  .personal-signup-navlink {
+    font-size: 26px;
+    font-style: inherit;
+    font-family: Alegreya Sans SC;
+    font-weight: 400;
+  }
+  .personal-signup-text {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text01 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text02 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text03 {
+    font-size: 18px;
+  }
+  .personal-signup-login {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-dropdown-toggle {
+    color: #f7f6f6;
+    border-radius: 56px;
+    background-color: #040000;
+  }
+  .personal-signup-text04 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .personal-signup-personal1 {
+    font-size: 16px;
+  }
+  .personal-signup-business1 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .personal-signup-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .personal-signup-text10 {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 52px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 400;
+    line-height: 80px;
+  }
+  .personal-signup-text11 {
+    color: rgb(238, 233, 254);
+    width: 100%;
+    font-size: 41px;
+    font-family: Alegreya Sans SC;
+    line-height: 30px;
+  }
+  .personal-signup-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    align-self: center;
+    text-align: left;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text13 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    align-self: center;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: left;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text14 {
+    font-size: 26px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-signup-text15 {
+    font-size: 26px;
+  }
+  .personal-signup-text16 {
+    font-size: 26px;
+  }
+  .personal-signup-centered-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .personal-signup-form {
+    width: 100%;
+    align-self: stretch;
+  }
+  .personal-signup-footer {
+    background-color: #ffffff;
+  }
+  .personal-signup-text48 {
+    font-size: 26px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .personal-signup-text49 {
+    color: #000000;
+    font-family: Alegreya Sans SC;
+  }
+}
+@media(max-width: 991px) {
+  .personal-signup-personal1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .personal-signup-hero {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .personal-signup-quote-container {
+    padding-top: var(--dl-space-space-sevenunits);
+    padding-bottom: var(--dl-space-space-sevenunits);
+  }
+  .personal-signup-message {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 40px;
+    max-width: 800px;
+    font-style: italic;
+    font-family: Alegreya Sans SC;
+    font-weight: 100;
+    line-height: 52px;
+  }
+  .personal-signup-centered-container {
+    justify-content: flex-start;
+  }
+  .personal-signup-form {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .personal-signup-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .personal-signup-desktop-menu {
+    display: none;
+  }
+  .personal-signup-text01 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .personal-signup-text02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .personal-signup-text03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .personal-signup-btn-group {
+    display: none;
+  }
+  .personal-signup-business1 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 500;
+  }
+  .personal-signup-burger-menu {
+    display: flex;
+  }
+  .personal-signup-hero {
+    height: 300px;
+    position: relative;
+    align-self: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+    background-color: var(--dl-color-template-blue-bg);
+  }
+  .personal-signup-text10 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .personal-signup-text11 {
+    color: rgb(238, 233, 254);
+    font-size: 16px;
+    margin-top: var(--dl-space-space-unit);
+    line-height: 24px;
+  }
+  .personal-signup-quote-container {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .personal-signup-message {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .personal-signup-quote1 {
+    font-size: 14px;
+    max-width: 800px;
+  }
+  .personal-signup-signup-form {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .personal-signup-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .personal-signup-text49 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .personal-signup-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .personal-signup-mobile-menu {
+    padding: 16px;
+  }
+  .personal-signup-hero {
+    height: 300px;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .personal-signup-text11 {
+    color: #EEE9FE;
+  }
+  .personal-signup-signup-form {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .personal-signup-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .personal-signup-text49 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
