@@ -6,6 +6,7 @@ import './style.css'
 import Home from './views/home'
 import PersonalSignup from './views/personal-signup'
 import BusinessSignup from './views/business-signup'
+import Login from './views/login'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route component={Home} exact path="/" />
         <Route component={PersonalSignup} exact path="/personal-signup" />
         <Route component={BusinessSignup} exact path="/business-signup" />
+        <Route component={Login} exact path="/login" />
       </div>
     </Router>
   )

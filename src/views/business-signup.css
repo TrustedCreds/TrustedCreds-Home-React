@@ -63,6 +63,7 @@
   font-family: Alegreya Sans SC;
   border-width: 0px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .business-signup-thq-dropdown {
   cursor: pointer;

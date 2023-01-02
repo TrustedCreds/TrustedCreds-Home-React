@@ -34,7 +34,9 @@ const Home = (props) => {
           </nav>
         </div>
         <div data-thq="thq-navbar-btn-group" className="home-btn-group">
-          <button className="home-login button">Login</button>
+          <Link to="/login" className="home-login button">
+            Login
+          </Link>
           <div data-thq="thq-dropdown" className="home-thq-dropdown list-item">
             <div
               data-thq="thq-dropdown-toggle"

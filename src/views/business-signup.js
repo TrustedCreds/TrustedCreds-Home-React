@@ -40,7 +40,9 @@ const BusinessSignup = (props) => {
           data-thq="thq-navbar-btn-group"
           className="business-signup-btn-group"
         >
-          <button className="business-signup-login button">Login</button>
+          <Link to="/login" className="business-signup-login button">
+            Login
+          </Link>
           <div
             data-thq="thq-dropdown"
             className="business-signup-thq-dropdown list-item"
@@ -321,10 +323,10 @@ const BusinessSignup = (props) => {
                 />
               </div>
             </div>
+            <button type="submit" className="business-signup-button button">
+              Signup
+            </button>
           </form>
-          <button type="submit" className="business-signup-button button">
-            Signup
-          </button>
         </div>
       </section>
       <footer className="business-signup-footer">

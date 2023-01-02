@@ -40,7 +40,9 @@ const PersonalSignup = (props) => {
           data-thq="thq-navbar-btn-group"
           className="personal-signup-btn-group"
         >
-          <button className="personal-signup-login button">Login</button>
+          <Link to="/login" className="personal-signup-login button">
+            Login
+          </Link>
           <div
             data-thq="thq-dropdown"
             className="personal-signup-thq-dropdown list-item"
@@ -299,10 +301,10 @@ const PersonalSignup = (props) => {
                 />
               </div>
             </div>
+            <button type="submit" className="personal-signup-button button">
+              Signup
+            </button>
           </form>
-          <button type="submit" className="personal-signup-button button">
-            Signup
-          </button>
         </div>
       </section>
       <footer className="personal-signup-footer">
