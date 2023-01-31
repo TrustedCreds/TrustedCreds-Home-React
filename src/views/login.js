@@ -172,8 +172,8 @@ const Login = (props) => {
             </div>
             <span className="login-forgot-password">Forgot Password?</span>
             <button
-              type="submit"
               id="btn_login"
+              type="submit"
               className="login-button button"
             >
               Log-in

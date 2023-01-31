@@ -360,11 +360,13 @@
 }
 .login-text11 {
   color: var(--dl-color-gray-white);
+  font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
 .login-text12 {
   color: var(--dl-color-gray-white);
+  font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-unit);
 }
 .login-container6 {
