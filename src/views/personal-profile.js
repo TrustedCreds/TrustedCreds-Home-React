@@ -71,7 +71,7 @@ const PersonalProfile = (props) => {
                   className="personal-profile-dropdown-toggle1"
                 >
                   <Link
-                    to="/business-signup"
+                    to="/personal-signup11"
                     className="personal-profile-view-credentials1"
                   >
                     View Credentials
