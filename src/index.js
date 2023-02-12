@@ -8,6 +8,7 @@ import BusinessHRMS from './views/business-h-r-m-s'
 import PersonalProfile from './views/personal-profile'
 import PersonalSignup from './views/personal-signup'
 import PersonalCredentials from './views/personal-credentials'
+import BusinessVerificationCentre from './views/business-verification-centre'
 import BusinessSignup from './views/business-signup'
 import Login from './views/login'
 
@@ -23,6 +24,11 @@ const App = () => {
           component={PersonalCredentials}
           exact
           path="/personal-signup11"
+        />
+        <Route
+          component={BusinessVerificationCentre}
+          exact
+          path="/personal-signup111"
         />
         <Route component={BusinessSignup} exact path="/business-signup" />
         <Route component={Login} exact path="/login" />

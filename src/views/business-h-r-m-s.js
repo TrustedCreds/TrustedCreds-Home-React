@@ -169,12 +169,12 @@ const BusinessHRMS = (props) => {
       </header>
       <section className="business-h-r-m-s-signup-form">
         <span className="business-h-r-m-s-text10">
-          Welcome to TrustedCreds!
+          DMart HR Management System
         </span>
         <div className="business-h-r-m-s-centered-container">
           <form name="personal-signup-form" className="business-h-r-m-s-form">
             <span className="business-h-r-m-s-text11">
-              DMart HR Management System - Simulator
+              Employee Event Simulator
             </span>
             <div className="business-h-r-m-s-container3">
               <div className="business-h-r-m-s-container4">

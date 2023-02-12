@@ -165,10 +165,8 @@ const BusinessSignup = (props) => {
         </div>
       </header>
       <section className="business-signup-hero">
-        <h1 className="business-signup-text10">
-          Claim your Decentralised Id and Wallet
-        </h1>
-        <p className="business-signup-text11">Trusted | Verifiable | Private</p>
+        <h1 className="business-signup-text10">Build Trusted Ecosystem</h1>
+        <p className="business-signup-text11">Shared | Verifiable | Private</p>
       </section>
       <section className="business-signup-quote-container">
         <div className="business-signup-quote">
