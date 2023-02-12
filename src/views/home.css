@@ -33,21 +33,23 @@
   align-items: center;
   flex-direction: row;
 }
+.home-navlink1 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  text-decoration: none;
+}
+.home-navlink2 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .home-text {
   font-size: 18px;
   font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
 }
 .home-text001 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
-}
-.home-text002 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
-}
-.home-text003 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
@@ -84,7 +86,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: #060000;
 }
-.home-text004 {
+.home-text002 {
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -242,6 +244,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-text003 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-text004 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .home-text005 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -249,12 +257,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text007 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text008 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-text009 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-container2 {
@@ -302,7 +304,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text010 {
+.home-text008 {
   color: rgb(255, 255, 255);
   font-size: 52px;
   font-style: normal;
@@ -311,7 +313,7 @@
   font-weight: 400;
   line-height: 80px;
 }
-.home-text011 {
+.home-text009 {
   color: rgb(238, 233, 254);
   width: 100%;
   font-size: 41px;
@@ -340,7 +342,7 @@
   color: black;
   background-color: #ffffff;
 }
-.home-text012 {
+.home-text010 {
   font-size: 18px;
   font-style: normal;
   font-family: Alegreya Sans SC;
@@ -373,7 +375,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text013 {
+.home-text011 {
   color: rgb(220, 212, 253);
   font-size: 25px;
   align-self: center;
@@ -382,7 +384,7 @@
   font-weight: 700;
   margin-bottom: 24px;
 }
-.home-text014 {
+.home-text012 {
   color: var(--dl-color-gray-white);
   font-size: 46px;
   font-style: normal;
@@ -416,20 +418,28 @@
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.home-text021 {
+.home-text019 {
   font-size: 32px;
   font-style: normal;
   font-family: Alegreya Sans SC;
   font-weight: 700;
   margin-bottom: 16px;
 }
-.home-text022 {
+.home-text020 {
   color: rgb(238, 233, 254);
   font-size: 26px;
   font-family: Alegreya Sans SC;
   line-height: 24px;
   margin-left: 0px;
   margin-bottom: 40px;
+}
+.home-text021 {
+  font-style: normal;
+  font-weight: 300;
+}
+.home-text022 {
+  font-style: normal;
+  font-weight: 300;
 }
 .home-text023 {
   font-style: normal;
@@ -447,14 +457,6 @@
   font-style: normal;
   font-weight: 300;
 }
-.home-text027 {
-  font-style: normal;
-  font-weight: 300;
-}
-.home-text028 {
-  font-style: normal;
-  font-weight: 300;
-}
 .home-get-started1 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -462,7 +464,7 @@
   color: black;
   background-color: #ffffff;
 }
-.home-text030 {
+.home-text028 {
   font-size: 18px;
   font-style: normal;
   font-family: Alegreya Sans SC;
@@ -510,7 +512,7 @@
   flex-direction: column;
   padding-bottom: 0px;
 }
-.home-text031 {
+.home-text029 {
   color: rgb(0, 0, 0);
   font-size: 32px;
   font-style: normal;
@@ -518,7 +520,7 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
-.home-text032 {
+.home-text030 {
   color: rgb(30, 30, 30);
   font-size: 26px;
   font-style: normal;
@@ -528,7 +530,7 @@
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text034 {
+.home-text032 {
   text-decoration: underline;
 }
 .home-pasted-image1 {
@@ -558,7 +560,7 @@
   flex-direction: column;
   padding-bottom: 0px;
 }
-.home-text037 {
+.home-text035 {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
@@ -566,7 +568,7 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
-.home-text038 {
+.home-text036 {
   color: rgb(238, 233, 254);
   font-size: 26px;
   font-style: normal;
@@ -576,7 +578,7 @@
   margin-left: 0px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text039 {
+.home-text037 {
   text-decoration: underline;
 }
 .home-pasted-image2 {
@@ -611,7 +613,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text042 {
+.home-text040 {
   color: #00000e;
   font-size: 25px;
   font-style: normal;
@@ -619,7 +621,7 @@
   font-weight: 700;
   margin-bottom: 24px;
 }
-.home-text043 {
+.home-text041 {
   color: rgb(0, 0, 0);
   font-size: 46px;
   align-self: flex-start;
@@ -649,7 +651,7 @@
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.home-text044 {
+.home-text042 {
   color: rgb(0, 0, 0);
   font-size: 32px;
   font-style: normal;
@@ -657,7 +659,7 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
-.home-text045 {
+.home-text043 {
   color: rgb(0, 0, 0);
   font-size: 26px;
   font-style: normal;
@@ -673,7 +675,7 @@
   color: black;
   background-color: #ffffff;
 }
-.home-text046 {
+.home-text044 {
   font-size: 18px;
   font-style: normal;
   font-family: Alegreya Sans SC;
@@ -723,7 +725,7 @@
   flex-direction: column;
   padding-bottom: 0px;
 }
-.home-text047 {
+.home-text045 {
   color: rgb(0, 0, 0);
   font-size: 32px;
   font-style: normal;
@@ -731,7 +733,7 @@
   font-weight: 400;
   margin-bottom: 16px;
 }
-.home-text048 {
+.home-text046 {
   color: rgb(30, 30, 30);
   font-size: 26px;
   margin-top: var(--dl-space-space-unit);
@@ -764,7 +766,7 @@
   flex-direction: column;
   padding-bottom: 0px;
 }
-.home-text051 {
+.home-text049 {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
@@ -772,7 +774,7 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
-.home-text052 {
+.home-text050 {
   color: rgb(238, 233, 254);
   font-size: 26px;
   margin-top: var(--dl-space-space-unit);
@@ -857,15 +859,15 @@
   margin-right: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-text055 {
+.home-text053 {
   font-size: 20px;
   font-family: Alegreya Sans SC;
 }
-.home-text056 {
+.home-text054 {
   text-align: left;
   font-family: Alegreya Sans SC;
 }
-.home-text057 {
+.home-text055 {
   color: rgb(0, 0, 0);
   font-size: 26px;
   font-style: normal;
@@ -882,7 +884,7 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-template-blue-bg);
 }
-.home-text069 {
+.home-text067 {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -936,11 +938,11 @@
   margin-left: var(--dl-space-space-fourunits);
   flex-direction: column;
 }
-.home-text070 {
+.home-text068 {
   font-size: 20px;
   font-family: Alegreya Sans SC;
 }
-.home-text071 {
+.home-text069 {
   text-align: left;
   font-family: Alegreya Sans SC;
 }
@@ -950,7 +952,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.home-text072 {
+.home-text070 {
   color: rgb(0, 0, 0);
   font-size: 24px;
   font-style: normal;
@@ -958,14 +960,14 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text073 {
+.home-text071 {
   color: rgb(0, 0, 0);
   font-size: 26px;
   font-family: Alegreya Sans SC;
   line-height: 24px;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text085 {
+.home-text083 {
   color: #5228F5;
   cursor: pointer;
   font-style: normal;
@@ -973,7 +975,7 @@
   font-family: Alegreya Sans SC;
   font-weight: 600;
 }
-.home-text085:hover {
+.home-text083:hover {
   color: #000000;
 }
 .home-category07 {
@@ -981,7 +983,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text086 {
+.home-text084 {
   color: rgb(0, 0, 0);
   font-size: 24px;
   font-style: normal;
@@ -989,14 +991,14 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text087 {
+.home-text085 {
   color: rgb(0, 0, 0);
   font-size: 26px;
   font-family: Alegreya Sans SC;
   line-height: 24px;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text099 {
+.home-text097 {
   color: #5228F5;
   cursor: pointer;
   font-style: normal;
@@ -1004,7 +1006,7 @@
   font-family: Alegreya Sans SC;
   font-weight: 600;
 }
-.home-text099:hover {
+.home-text097:hover {
   color: #000000;
 }
 .home-pricing-new {
@@ -1039,7 +1041,7 @@
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text100 {
+.home-text098 {
   color: rgb(0, 0, 0);
   font-size: 46px;
   align-self: flex-start;
@@ -1077,7 +1079,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.home-text101 {
+.home-text099 {
   color: rgb(0, 0, 0);
   font-size: 32px;
   align-self: center;
@@ -1086,7 +1088,7 @@
   font-weight: 400;
   margin-bottom: 16px;
 }
-.home-text102 {
+.home-text100 {
   color: rgb(30, 30, 30);
   font-size: 26px;
   align-self: center;
@@ -1107,7 +1109,7 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-template-blue-bg);
 }
-.home-text105 {
+.home-text103 {
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -1126,7 +1128,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-text108 {
+.home-text106 {
   color: rgb(0, 0, 0);
   font-size: 32px;
   font-style: normal;
@@ -1134,7 +1136,7 @@
   font-weight: 400;
   margin-bottom: 16px;
 }
-.home-text109 {
+.home-text107 {
   color: rgb(30, 30, 30);
   font-size: 26px;
   margin-top: var(--dl-space-space-unit);
@@ -1166,7 +1168,7 @@
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.home-text113 {
+.home-text111 {
   color: rgb(0, 0, 0);
   font-size: 32px;
   font-style: normal;
@@ -1174,7 +1176,7 @@
   font-weight: 400;
   margin-bottom: 16px;
 }
-.home-text114 {
+.home-text112 {
   color: rgb(30, 30, 30);
   font-size: 26px;
   margin-top: var(--dl-space-space-unit);
@@ -1196,7 +1198,7 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-template-blue-bg);
 }
-.home-text117 {
+.home-text115 {
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -1219,7 +1221,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.home-text120 {
+.home-text118 {
   color: rgb(0, 0, 0);
   font-size: 32px;
   font-style: normal;
@@ -1227,7 +1229,7 @@
   font-weight: 400;
   margin-bottom: 16px;
 }
-.home-text121 {
+.home-text119 {
   color: rgb(30, 30, 30);
   font-size: 26px;
   margin-top: var(--dl-space-space-unit);
@@ -1247,10 +1249,10 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-text128 {
+.home-text126 {
   font-family: Alegreya Sans SC;
 }
-.home-text129 {
+.home-text127 {
   font-family: Alegreya Sans SC;
 }
 @media(max-width: 1600px) {
@@ -1260,15 +1262,15 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .home-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .home-text {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .home-text001 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .home-text002 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .home-text003 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
@@ -1281,7 +1283,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .home-text004 {
+  .home-text002 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -1304,7 +1306,7 @@
   .home-heading2 {
     align-self: center;
   }
-  .home-text100 {
+  .home-text098 {
     color: #ffffff;
     font-size: 46px;
     align-self: center;
@@ -1319,14 +1321,14 @@
   .home-headng6 {
     margin-top: var(--dl-space-space-twounits);
   }
-  .home-text101 {
+  .home-text099 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text102 {
+  .home-text100 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     font-family: Alegreya Sans SC;
@@ -1341,7 +1343,7 @@
     height: 247px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text108 {
+  .home-text106 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
@@ -1349,7 +1351,7 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text109 {
+  .home-text107 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     text-align: center;
@@ -1359,14 +1361,14 @@
   .home-headng7 {
     margin-top: var(--dl-space-space-twounits);
   }
-  .home-text113 {
+  .home-text111 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text114 {
+  .home-text112 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     font-family: Alegreya Sans SC;
@@ -1381,7 +1383,7 @@
     height: 247px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text120 {
+  .home-text118 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
@@ -1389,7 +1391,7 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text121 {
+  .home-text119 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     text-align: center;
@@ -1404,19 +1406,19 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .home-navlink1 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .home-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .home-text {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
   .home-text001 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .home-text002 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .home-text003 {
     font-size: 18px;
   }
   .home-login {
@@ -1428,7 +1430,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .home-text004 {
+  .home-text002 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -1446,7 +1448,7 @@
   .home-header {
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text010 {
+  .home-text008 {
     color: rgb(255, 255, 255);
     font-size: 52px;
     font-style: normal;
@@ -1454,47 +1456,47 @@
     font-weight: 400;
     line-height: 80px;
   }
-  .home-text011 {
+  .home-text009 {
     color: rgb(238, 233, 254);
     width: 878px;
     font-size: 41px;
     font-family: Alegreya Sans SC;
     line-height: 30px;
   }
-  .home-text022 {
+  .home-text020 {
     color: rgb(238, 233, 254);
     font-size: 26px;
     font-family: Alegreya Sans SC;
     line-height: 24px;
   }
+  .home-text021 {
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 300;
+  }
+  .home-text022 {
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 300;
+  }
   .home-text023 {
-    font-style: normal;
-    font-family: Alegreya Sans SC;
-    font-weight: 300;
-  }
-  .home-text024 {
-    font-style: normal;
-    font-family: Alegreya Sans SC;
-    font-weight: 300;
-  }
-  .home-text025 {
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 300;
     text-decoration: underline;
   }
-  .home-text026 {
+  .home-text024 {
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 300;
     text-decoration: inherit;
   }
-  .home-text027 {
+  .home-text025 {
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 300;
   }
-  .home-text028 {
+  .home-text026 {
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 300;
@@ -1525,14 +1527,14 @@
     align-items: center;
     padding-top: var(--dl-space-space-unit);
   }
-  .home-text108 {
+  .home-text106 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text109 {
+  .home-text107 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     text-align: center;
@@ -1552,14 +1554,14 @@
     padding-right: 0px;
     justify-content: center;
   }
-  .home-text113 {
+  .home-text111 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text114 {
+  .home-text112 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     font-family: Alegreya Sans SC;
@@ -1573,7 +1575,7 @@
     margin-bottom: var(--dl-space-space-twounits);
     justify-content: center;
   }
-  .home-text117 {
+  .home-text115 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -1584,14 +1586,14 @@
     align-items: center;
     padding-top: var(--dl-space-space-unit);
   }
-  .home-text120 {
+  .home-text118 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text121 {
+  .home-text119 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     text-align: center;
@@ -1601,14 +1603,14 @@
   .home-footer2 {
     background-color: #ffffff;
   }
-  .home-text128 {
+  .home-text126 {
     font-size: 26px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
     text-transform: capitalize;
   }
-  .home-text129 {
+  .home-text127 {
     color: #000000;
     font-family: Alegreya Sans SC;
   }
@@ -1748,13 +1750,13 @@
   .home-desktop-menu {
     display: none;
   }
+  .home-navlink2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .home-text {
+    margin-left: var(--dl-space-space-unit);
+  }
   .home-text001 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .home-text002 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .home-text003 {
     margin-left: var(--dl-space-space-unit);
   }
   .home-btn-group {
@@ -1781,14 +1783,14 @@
     margin-top: var(--dl-space-space-fourunits);
     justify-content: center;
   }
-  .home-text010 {
+  .home-text008 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px;
   }
-  .home-text011 {
+  .home-text009 {
     color: rgb(238, 233, 254);
     font-size: 16px;
     margin-top: var(--dl-space-space-unit);
@@ -1806,20 +1808,32 @@
   .home-heading {
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text014 {
+  .home-text012 {
     margin-bottom: 0px;
   }
-  .home-text015 {
+  .home-text013 {
     margin-bottom: 0px;
   }
   .home-headng {
     padding-bottom: 0px;
   }
-  .home-text022 {
+  .home-text020 {
     color: rgb(238, 233, 254);
     font-size: 26px;
     font-family: Alegreya Sans SC;
     line-height: 24px;
+  }
+  .home-text021 {
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 300;
+    text-decoration: inherit;
+  }
+  .home-text022 {
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 300;
+    text-decoration: inherit;
   }
   .home-text023 {
     font-style: normal;
@@ -1845,18 +1859,6 @@
     font-weight: 300;
     text-decoration: inherit;
   }
-  .home-text027 {
-    font-style: normal;
-    font-family: Alegreya Sans SC;
-    font-weight: 300;
-    text-decoration: inherit;
-  }
-  .home-text028 {
-    font-style: normal;
-    font-family: Alegreya Sans SC;
-    font-weight: 300;
-    text-decoration: inherit;
-  }
   .home-get-started1 {
     display: none;
   }
@@ -1876,7 +1878,7 @@
   .home-heading1 {
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text043 {
+  .home-text041 {
     margin-bottom: 0px;
   }
   .home-headng3 {
@@ -1916,14 +1918,14 @@
   .home-left {
     margin-right: 0px;
   }
-  .home-text056 {
+  .home-text054 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text057 {
+  .home-text055 {
     line-height: 24px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text069 {
+  .home-text067 {
     font-size: 16px;
   }
   .home-image-container {
@@ -1941,31 +1943,31 @@
   .home-right {
     margin-left: 0px;
   }
-  .home-text071 {
+  .home-text069 {
     font-size: 28px;
     text-align: left;
     line-height: 26px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .home-text072 {
+  .home-text070 {
     font-size: 20px;
   }
-  .home-text073 {
+  .home-text071 {
     line-height: 24px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text074 {
+  .home-text072 {
+    line-height: 24px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text084 {
+    font-size: 20px;
+  }
+  .home-text085 {
     line-height: 24px;
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-text086 {
-    font-size: 20px;
-  }
-  .home-text087 {
-    line-height: 24px;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text088 {
     line-height: 24px;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -1978,7 +1980,7 @@
   .home-heading2 {
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text100 {
+  .home-text098 {
     margin-bottom: 0px;
   }
   .home-row2 {
@@ -1994,7 +1996,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text129 {
+  .home-text127 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -2011,7 +2013,7 @@
     height: 546px;
     padding-bottom: 160px;
   }
-  .home-text011 {
+  .home-text009 {
     color: #EEE9FE;
   }
   .home-get-started {
@@ -2032,19 +2034,31 @@
     padding-top: var(--dl-space-space-twounits);
     margin-right: var(--dl-space-space-twounits);
   }
-  .home-text021 {
+  .home-text019 {
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
   }
-  .home-text022 {
+  .home-text020 {
     color: rgb(238, 233, 254);
     font-size: 26px;
     align-self: flex-start;
     text-align: left;
     font-family: Alegreya Sans SC;
     line-height: 24px;
+  }
+  .home-text021 {
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 300;
+    text-decoration: inherit;
+  }
+  .home-text022 {
+    font-style: normal;
+    font-family: Alegreya Sans SC;
+    font-weight: 300;
+    text-decoration: inherit;
   }
   .home-text023 {
     font-style: normal;
@@ -2070,29 +2084,17 @@
     font-weight: 300;
     text-decoration: inherit;
   }
-  .home-text027 {
-    font-style: normal;
-    font-family: Alegreya Sans SC;
-    font-weight: 300;
-    text-decoration: inherit;
-  }
-  .home-text028 {
-    font-style: normal;
-    font-family: Alegreya Sans SC;
-    font-weight: 300;
-    text-decoration: inherit;
-  }
   .home-pasted-image {
     width: 100%;
   }
-  .home-text031 {
+  .home-text029 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
   }
-  .home-text032 {
+  .home-text030 {
     color: rgb(30, 30, 30);
     font-size: 26px;
     font-style: normal;
@@ -2100,10 +2102,10 @@
     font-weight: 400;
     line-height: 24px;
   }
-  .home-text034 {
+  .home-text032 {
     text-decoration: underline;
   }
-  .home-text037 {
+  .home-text035 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-style: normal;
@@ -2115,28 +2117,28 @@
     padding-right: var(--dl-space-space-twounits);
     flex-direction: column;
   }
-  .home-text044 {
+  .home-text042 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
   }
-  .home-text047 {
+  .home-text045 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text051 {
+  .home-text049 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
   }
-  .home-text057 {
+  .home-text055 {
     line-height: 24px;
   }
   .home-cards-image {
@@ -2147,7 +2149,7 @@
     width: 100%;
     height: auto;
   }
-  .home-text101 {
+  .home-text099 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
@@ -2157,14 +2159,14 @@
   .home-get-started4 {
     margin-left: var(--dl-space-space-unit);
   }
-  .home-text108 {
+  .home-text106 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .home-text113 {
+  .home-text111 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
@@ -2174,7 +2176,7 @@
   .home-get-started5 {
     margin-left: var(--dl-space-space-unit);
   }
-  .home-text120 {
+  .home-text118 {
     color: rgb(0, 0, 0);
     font-size: 32px;
     font-style: normal;
@@ -2185,7 +2187,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-text129 {
+  .home-text127 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

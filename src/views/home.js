@@ -27,10 +27,14 @@ const Home = (props) => {
             data-role="Nav"
             className="home-nav"
           >
-            <span className="home-text">For Individuals</span>
-            <span className="home-text001">For Business</span>
-            <span className="home-text002">Features</span>
-            <span className="home-text003">Contact Us</span>
+            <Link to="/personal-signup1" className="home-navlink1">
+              For Individuals
+            </Link>
+            <Link to="/personal-signup12" className="home-navlink2">
+              For Business
+            </Link>
+            <span className="home-text">Features</span>
+            <span className="home-text001">Contact Us</span>
           </nav>
         </div>
         <div data-thq="thq-navbar-btn-group" className="home-btn-group">
@@ -42,7 +46,7 @@ const Home = (props) => {
               data-thq="thq-dropdown-toggle"
               className="home-dropdown-toggle"
             >
-              <span className="home-text004">Signup</span>
+              <span className="home-text002">Signup</span>
               <div
                 data-thq="thq-dropdown-arrow"
                 className="home-dropdown-arrow"
@@ -104,11 +108,11 @@ const Home = (props) => {
               data-role="Nav"
               className="home-nav2"
             >
-              <span className="home-text005">About</span>
-              <span className="home-text006">Features</span>
-              <span className="home-text007">Pricing</span>
-              <span className="home-text008">Team</span>
-              <span className="home-text009">Blog</span>
+              <span className="home-text003">About</span>
+              <span className="home-text004">Features</span>
+              <span className="home-text005">Pricing</span>
+              <span className="home-text006">Team</span>
+              <span className="home-text007">Blog</span>
             </nav>
             <div className="home-container2">
               <button className="home-login1 button">Login</button>
@@ -130,23 +134,23 @@ const Home = (props) => {
       </header>
       <section className="home-hero">
         <header className="home-header">
-          <h1 className="home-text010">
+          <h1 className="home-text008">
             Verify Credentials - Direct &amp; Instant
           </h1>
-          <p className="home-text011">Trusted | Verifiable | Private</p>
+          <p className="home-text009">Trusted | Verifiable | Private</p>
           <div className="home-get-started">
-            <span className="home-text012">Get started</span>
+            <span className="home-text010">Get started</span>
           </div>
         </header>
       </section>
       <section className="home-how-it-works-for-indivs">
         <div className="home-centered-container">
           <div className="home-heading">
-            <span className="home-text013">
+            <span className="home-text011">
               How it works - for Individuals.
             </span>
-            <span className="home-text014 title">
-              <span className="home-text015"> Sharing Credentials is now </span>
+            <span className="home-text012 title">
+              <span className="home-text013"> Sharing Credentials is now </span>
               <span>Easier </span>
               <span>
                 and
@@ -164,10 +168,10 @@ const Home = (props) => {
           <div className="home-container3"></div>
           <div className="home-category">
             <div className="home-headng">
-              <span className="home-text021">1:  SignUp and Activate</span>
-              <span className="home-text022">
-                <span className="home-text023">Claim your </span>
-                <span className="home-text024">
+              <span className="home-text019">1:  SignUp and Activate</span>
+              <span className="home-text020">
+                <span className="home-text021">Claim your </span>
+                <span className="home-text022">
                   decentralised
                   <span
                     dangerouslySetInnerHTML={{
@@ -175,14 +179,14 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-text025">Identity</span>
-                <span className="home-text026">,</span>
-                <span className="home-text027"> and </span>
-                <span className="home-text028">Secure Wallet.</span>
+                <span className="home-text023">Identity</span>
+                <span className="home-text024">,</span>
+                <span className="home-text025"> and </span>
+                <span className="home-text026">Secure Wallet.</span>
                 <br></br>
               </span>
               <div className="home-get-started1 template-button">
-                <span className="home-text030">Get started</span>
+                <span className="home-text028">Get started</span>
               </div>
             </div>
             <div className="home-container4">
@@ -196,8 +200,8 @@ const Home = (props) => {
           <div className="home-row">
             <div className="home-category01">
               <div className="home-headng1">
-                <span className="home-text031">2:  Keep adding Creds</span>
-                <span className="home-text032">
+                <span className="home-text029">2:  Keep adding Creds</span>
+                <span className="home-text030">
                   <span>
                     build an
                     <span
@@ -206,7 +210,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-text034">Immutable</span>
+                  <span className="home-text032">Immutable</span>
                   <span> chain of your Credentials. </span>
                   <br></br>
                 </span>
@@ -219,9 +223,9 @@ const Home = (props) => {
             </div>
             <div className="home-category02">
               <div className="home-headng2">
-                <span className="home-text037">3:  Share Chain of Creds</span>
-                <span className="home-text038">
-                  <span className="home-text039">You</span>
+                <span className="home-text035">3:  Share Chain of Creds</span>
+                <span className="home-text036">
+                  <span className="home-text037">You</span>
                   <span> Control what you share.</span>
                   <br></br>
                 </span>
@@ -238,21 +242,21 @@ const Home = (props) => {
       <section className="home-how-it-works-for-orgs">
         <div className="home-centered-container1">
           <div className="home-heading1">
-            <span className="home-text042">
+            <span className="home-text040">
               How it works - For Organisations
             </span>
-            <span className="home-text043 title">
+            <span className="home-text041 title">
               Background Verification - Trusted, Instant and Customisable.
             </span>
           </div>
           <div className="home-category03">
             <div className="home-headng3">
-              <span className="home-text044">1:  Come Onboard</span>
-              <span className="home-text045">
+              <span className="home-text042">1:  Come Onboard</span>
+              <span className="home-text043">
                 we integrate with your SSO and HRMS. 
               </span>
               <div className="home-get-started2 template-button">
-                <span className="home-text046">Get started</span>
+                <span className="home-text044">Get started</span>
               </div>
             </div>
             <div className="home-container5">
@@ -266,8 +270,8 @@ const Home = (props) => {
           <div className="home-row1">
             <div className="home-category04">
               <div className="home-headng4">
-                <span className="home-text047">2: Contribute to Trust</span>
-                <span className="home-text048">
+                <span className="home-text045">2: Contribute to Trust</span>
+                <span className="home-text046">
                   <span>
                     Community of Organisations share Trusted Credentials.
                   </span>
@@ -282,8 +286,8 @@ const Home = (props) => {
             </div>
             <div className="home-category05">
               <div className="home-headng5">
-                <span className="home-text051">3: Verify Instantly</span>
-                <span className="home-text052">
+                <span className="home-text049">3: Verify Instantly</span>
+                <span className="home-text050">
                   <span>
                     Employees Instantly Share Credentials from Wallet.
                   </span>
@@ -311,13 +315,13 @@ const Home = (props) => {
         <div className="home-banner-manage">
           <div className="home-container6">
             <div className="home-left">
-              <span className="home-text055 sub-title">
+              <span className="home-text053 sub-title">
                 Individual&apos;s Registry of Trusted Credentials
               </span>
-              <span className="home-text056 title">
+              <span className="home-text054 title">
                 Individuals - Control your Identity
               </span>
-              <span className="home-text057">
+              <span className="home-text055">
                 <span>receive a Decentralised Identity.</span>
                 <br></br>
                 <br></br>
@@ -337,7 +341,7 @@ const Home = (props) => {
                 <br></br>
               </span>
               <div className="home-get-started3 template-button">
-                <span className="home-text069">Get started</span>
+                <span className="home-text067">Get started</span>
               </div>
             </div>
             <div className="home-image-container">
@@ -359,16 +363,16 @@ const Home = (props) => {
               />
             </div>
             <div className="home-right">
-              <span className="home-text070 sub-title">
+              <span className="home-text068 sub-title">
                 Evolution of Background Verification for Orgs.
               </span>
-              <h2 className="home-text071 title">
+              <h2 className="home-text069 title">
                 Enterprise  Verification Ecosystem
               </h2>
               <div className="home-category06">
-                <span className="home-text072">Ecosystem</span>
-                <span className="home-text073">
-                  <span className="home-text074">
+                <span className="home-text070">Ecosystem</span>
+                <span className="home-text071">
+                  <span className="home-text072">
                     Credentials issued by one Org. are available for other Orgs.
                     - Online, Secure, and Distributed. 
                   </span>
@@ -386,14 +390,14 @@ const Home = (props) => {
                   <span>Orgs. can design custom workflows.</span>
                   <br></br>
                 </span>
-                <span className="home-text085">Example -&gt;</span>
+                <span className="home-text083">Example -&gt;</span>
               </div>
               <div className="home-category07">
-                <span className="home-text086">
+                <span className="home-text084">
                   Preserves Privacy, yet Instant
                 </span>
-                <span className="home-text087">
-                  <span className="home-text088">
+                <span className="home-text085">
+                  <span className="home-text086">
                     Employee shares the Unique Alphanumeric Identifier with
                     Org., to verify Credentials.
                   </span>
@@ -414,7 +418,7 @@ const Home = (props) => {
                   </span>
                   <br></br>
                 </span>
-                <span className="home-text099">Example -&gt;</span>
+                <span className="home-text097">Example -&gt;</span>
               </div>
             </div>
           </div>
@@ -423,26 +427,26 @@ const Home = (props) => {
       <section className="home-pricing-new">
         <div className="home-centered-container3">
           <div className="home-heading2">
-            <span className="home-text100 title">Priced for All</span>
+            <span className="home-text098 title">Priced for All</span>
           </div>
           <div className="home-row2">
             <div className="home-category08">
               <div className="home-headng6">
-                <span className="home-text101">FREE</span>
-                <span className="home-text102">
+                <span className="home-text099">FREE</span>
+                <span className="home-text100">
                   <span>Build Community</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-get-started4 template-button">
-                <span className="home-text105">
+                <span className="home-text103">
                   <span>Start Free</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-footer">
-                <span className="home-text108">What&apos;s Included</span>
-                <span className="home-text109">
+                <span className="home-text106">What&apos;s Included</span>
+                <span className="home-text107">
                   <span>- Tokenised Basic Verifications</span>
                   <br></br>
                   <br></br>
@@ -451,21 +455,21 @@ const Home = (props) => {
             </div>
             <div className="home-category09">
               <div className="home-headng7">
-                <span className="home-text113">Pay as you Go</span>
-                <span className="home-text114">
+                <span className="home-text111">Pay as you Go</span>
+                <span className="home-text112">
                   <span>Premium Features</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-get-started5 template-button">
-                <span className="home-text117">
+                <span className="home-text115">
                   <span>Upgrade Now</span>
                   <br></br>
                 </span>
               </div>
               <div className="home-footer1">
-                <span className="home-text120">What&apos;s Included</span>
-                <span className="home-text121">
+                <span className="home-text118">What&apos;s Included</span>
+                <span className="home-text119">
                   <span>- Detailed Verifications</span>
                   <br></br>
                   <br></br>
@@ -479,8 +483,8 @@ const Home = (props) => {
         </div>
       </section>
       <footer className="home-footer2">
-        <span className="home-text128">TrustedCreds</span>
-        <span className="home-text129">
+        <span className="home-text126">TrustedCreds</span>
+        <span className="home-text127">
           © 2023 TrustedCreds, All Rights Reserved.
         </span>
         <IconGroup></IconGroup>

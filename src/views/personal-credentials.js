@@ -342,7 +342,7 @@ const PersonalCredentials = (props) => {
                       </label>
                       <img
                         alt="image"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1024px-QR_code_for_mobile_English_Wikipedia.svg.png"
+                        src="https://tcnetstorage.blob.core.windows.net/tcnetpublic/tcnet-qrcode-small-200pxpng"
                         loading="lazy"
                         className="personal-credentials-image1"
                       />
