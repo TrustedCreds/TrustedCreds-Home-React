@@ -8,7 +8,7 @@ import BusinessHRMS from './views/business-h-r-m-s'
 import PersonalProfile from './views/personal-profile'
 import PersonalSignup from './views/personal-signup'
 import PersonalCredentials from './views/personal-credentials'
-import BusinessVerificationCentre from './views/business-verification-centre'
+import BusinessTrustCenter from './views/business-trust-center'
 import BusinessSignup from './views/business-signup'
 import Login from './views/login'
 
@@ -26,7 +26,7 @@ const App = () => {
           path="/personal-signup11"
         />
         <Route
-          component={BusinessVerificationCentre}
+          component={BusinessTrustCenter}
           exact
           path="/personal-signup111"
         />

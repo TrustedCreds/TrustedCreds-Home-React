@@ -30,10 +30,20 @@ const PersonalCredentials = (props) => {
             data-role="Nav"
             className="personal-credentials-nav"
           >
-            <span className="personal-credentials-text">For Individuals</span>
-            <span className="personal-credentials-text01">For Business</span>
-            <span className="personal-credentials-text02">Features</span>
-            <span className="personal-credentials-text03">Contact Us</span>
+            <Link
+              to="/personal-signup1"
+              className="personal-credentials-navlink1"
+            >
+              For Individuals
+            </Link>
+            <Link
+              to="/personal-signup12"
+              className="personal-credentials-navlink2"
+            >
+              For Business
+            </Link>
+            <span className="personal-credentials-text">Features</span>
+            <span className="personal-credentials-text01">Contact Us</span>
           </nav>
         </div>
         <div
@@ -48,7 +58,7 @@ const PersonalCredentials = (props) => {
               data-thq="thq-dropdown-toggle"
               className="personal-credentials-dropdown-toggle"
             >
-              <span className="personal-credentials-text04">More</span>
+              <span className="personal-credentials-text02">More</span>
               <div
                 data-thq="thq-dropdown-arrow"
                 className="personal-credentials-dropdown-arrow"
@@ -137,11 +147,11 @@ const PersonalCredentials = (props) => {
               data-role="Nav"
               className="personal-credentials-nav2"
             >
-              <span className="personal-credentials-text05">About</span>
-              <span className="personal-credentials-text06">Features</span>
-              <span className="personal-credentials-text07">Pricing</span>
-              <span className="personal-credentials-text08">Team</span>
-              <span className="personal-credentials-text09">Blog</span>
+              <span className="personal-credentials-text03">About</span>
+              <span className="personal-credentials-text04">Features</span>
+              <span className="personal-credentials-text05">Pricing</span>
+              <span className="personal-credentials-text06">Team</span>
+              <span className="personal-credentials-text07">Blog</span>
             </nav>
             <div className="personal-credentials-container02">
               <button className="personal-credentials-login button">
@@ -173,36 +183,36 @@ const PersonalCredentials = (props) => {
         </div>
       </header>
       <section className="personal-credentials-credentials">
-        <span className="personal-credentials-text10">
+        <span className="personal-credentials-text08">
           Welcome to TrustedCreds!
         </span>
         <div className="personal-credentials-centered-container">
-          <span className="personal-credentials-text11">Your Trustcenter</span>
+          <span className="personal-credentials-text09">Your Trustcenter</span>
           <div className="personal-credentials-container03">
             <div className="personal-credentials-container04">
               <div className="personal-credentials-centered-container1">
-                <span className="personal-credentials-text12">
+                <span className="personal-credentials-text10">
                   Your Credentials
                 </span>
                 <form
                   name="personal-signup-form"
                   className="personal-credentials-form"
                 >
-                  <span className="personal-credentials-text13">
+                  <span className="personal-credentials-text11">
                     <span>Fields marked with &quot;</span>
-                    <span className="personal-credentials-text15">*</span>
+                    <span className="personal-credentials-text13">*</span>
                     <span>&quot; are mandatory.</span>
                   </span>
                   <div className="personal-credentials-container05">
-                    <span className="personal-credentials-text17">WIPRO</span>
+                    <span className="personal-credentials-text15">WIPRO</span>
                     <div className="personal-credentials-container06">
-                      <label className="personal-credentials-text18">
+                      <label className="personal-credentials-text16">
                         Period
                       </label>
-                      <label className="personal-credentials-text19">
+                      <label className="personal-credentials-text17">
                         Designation
                       </label>
-                      <label className="personal-credentials-text20">
+                      <label className="personal-credentials-text18">
                         <span>Remarks</span>
                         <span>:</span>
                       </label>
@@ -214,13 +224,13 @@ const PersonalCredentials = (props) => {
                       </label>
                     </div>
                     <div className="personal-credentials-container07">
-                      <label className="personal-credentials-text23">
+                      <label className="personal-credentials-text21">
                         Jan, 2020 to Aug, 2022
                       </label>
-                      <label className="personal-credentials-text24">
+                      <label className="personal-credentials-text22">
                         Software Engineer
                       </label>
-                      <label className="personal-credentials-text25">
+                      <label className="personal-credentials-text23">
                         Nov 2, 2008
                       </label>
                       <a
@@ -231,7 +241,7 @@ const PersonalCredentials = (props) => {
                       >
                         Wipro Join / Exit Docs.
                       </a>
-                      <label className="personal-credentials-text26">
+                      <label className="personal-credentials-text24">
                         Verified
                         <span
                           dangerouslySetInnerHTML={{
@@ -242,15 +252,15 @@ const PersonalCredentials = (props) => {
                     </div>
                   </div>
                   <div className="personal-credentials-container08">
-                    <span className="personal-credentials-text27">GOOGLE</span>
+                    <span className="personal-credentials-text25">GOOGLE</span>
                     <div className="personal-credentials-container09">
-                      <label className="personal-credentials-text28">
+                      <label className="personal-credentials-text26">
                         Period
                       </label>
-                      <label className="personal-credentials-text29">
+                      <label className="personal-credentials-text27">
                         Designation
                       </label>
-                      <label className="personal-credentials-text30">
+                      <label className="personal-credentials-text28">
                         <span>Remarks</span>
                         <span>:</span>
                       </label>
@@ -262,13 +272,13 @@ const PersonalCredentials = (props) => {
                       </label>
                     </div>
                     <div className="personal-credentials-container10">
-                      <label className="personal-credentials-text33">
+                      <label className="personal-credentials-text31">
                         Jan, 2020 to Aug, 2022
                       </label>
-                      <label className="personal-credentials-text34">
+                      <label className="personal-credentials-text32">
                         Software Engineer
                       </label>
-                      <label className="personal-credentials-text35">
+                      <label className="personal-credentials-text33">
                         Nov 2, 2008
                       </label>
                       <a
@@ -279,7 +289,7 @@ const PersonalCredentials = (props) => {
                       >
                         Google Join / Exit Docs.
                       </a>
-                      <label className="personal-credentials-text36">
+                      <label className="personal-credentials-text34">
                         {' '}
                         Pending Verification
                       </label>
@@ -296,29 +306,29 @@ const PersonalCredentials = (props) => {
             </div>
             <div className="personal-credentials-container11">
               <div className="personal-credentials-centered-container2">
-                <span className="personal-credentials-text37">
+                <span className="personal-credentials-text35">
                   Pending Requests
                 </span>
                 <form
                   name="personal-signup-form"
                   className="personal-credentials-form1"
                 >
-                  <span className="personal-credentials-text38">
+                  <span className="personal-credentials-text36">
                     <span>Fields marked with &quot;</span>
-                    <span className="personal-credentials-text40">*</span>
+                    <span className="personal-credentials-text38">*</span>
                     <span>&quot; are mandatory.</span>
                   </span>
                   <div className="personal-credentials-container12">
                     <div className="personal-credentials-container13">
-                      <label className="personal-credentials-text42">
+                      <label className="personal-credentials-text40">
                         Request Type:
                       </label>
-                      <label className="personal-credentials-text43">
+                      <label className="personal-credentials-text41">
                         From:
                       </label>
-                      <label className="personal-credentials-text44">
+                      <label className="personal-credentials-text42">
                         <span>Remarks </span>
-                        <span className="personal-credentials-text46">*</span>
+                        <span className="personal-credentials-text44">*</span>
                         <span>:</span>
                       </label>
                       <label className="personal-credentials-profile-pic4">
@@ -331,13 +341,13 @@ const PersonalCredentials = (props) => {
                       </label>
                     </div>
                     <div className="personal-credentials-container14">
-                      <label className="personal-credentials-text51">
+                      <label className="personal-credentials-text49">
                         Accept  Credentials
                       </label>
-                      <label className="personal-credentials-text52">
+                      <label className="personal-credentials-text50">
                         TrustedCreds
                       </label>
-                      <label className="personal-credentials-text53">
+                      <label className="personal-credentials-text51">
                         Nov 2, 2008
                       </label>
                       <img
@@ -355,8 +365,8 @@ const PersonalCredentials = (props) => {
         </div>
       </section>
       <footer className="personal-credentials-footer">
-        <span className="personal-credentials-text54">TrustedCreds</span>
-        <span className="personal-credentials-text55">
+        <span className="personal-credentials-text52">TrustedCreds</span>
+        <span className="personal-credentials-text53">
           © 2023 TrustedCreds, All Rights Reserved.
         </span>
         <IconGroup></IconGroup>

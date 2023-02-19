@@ -30,10 +30,14 @@ const PersonalProfile = (props) => {
             data-role="Nav"
             className="personal-profile-nav"
           >
-            <span className="personal-profile-text">For Business</span>
-            <span className="personal-profile-text01">For Individuals</span>
-            <span className="personal-profile-text02">Features</span>
-            <span className="personal-profile-text03">Contact Us</span>
+            <Link to="/personal-signup1" className="personal-profile-navlink1">
+              For Individuals
+            </Link>
+            <Link to="/personal-signup12" className="personal-profile-navlink2">
+              For Business
+            </Link>
+            <span className="personal-profile-text">Features</span>
+            <span className="personal-profile-text01">Contact Us</span>
           </nav>
         </div>
         <div
@@ -48,7 +52,7 @@ const PersonalProfile = (props) => {
               data-thq="thq-dropdown-toggle"
               className="personal-profile-dropdown-toggle"
             >
-              <span className="personal-profile-text04">More</span>
+              <span className="personal-profile-text02">More</span>
               <div
                 data-thq="thq-dropdown-arrow"
                 className="personal-profile-dropdown-arrow"
@@ -134,11 +138,11 @@ const PersonalProfile = (props) => {
               data-role="Nav"
               className="personal-profile-nav2"
             >
-              <span className="personal-profile-text05">About</span>
-              <span className="personal-profile-text06">Features</span>
-              <span className="personal-profile-text07">Pricing</span>
-              <span className="personal-profile-text08">Team</span>
-              <span className="personal-profile-text09">Blog</span>
+              <span className="personal-profile-text03">About</span>
+              <span className="personal-profile-text04">Features</span>
+              <span className="personal-profile-text05">Pricing</span>
+              <span className="personal-profile-text06">Team</span>
+              <span className="personal-profile-text07">Blog</span>
             </nav>
             <div className="personal-profile-container2">
               <button className="personal-profile-login button">Login</button>
@@ -168,21 +172,21 @@ const PersonalProfile = (props) => {
         </div>
       </header>
       <section className="personal-profile-signup-form">
-        <span className="personal-profile-text10">
+        <span className="personal-profile-text08">
           Welcome to TrustedCreds!
         </span>
         <div className="personal-profile-centered-container">
           <form name="personal-signup-form" className="personal-profile-form">
-            <span className="personal-profile-text11">Personal Profile</span>
-            <span className="personal-profile-text12">
+            <span className="personal-profile-text09">Personal Profile</span>
+            <span className="personal-profile-text10">
               <span>Fields marked with &quot;</span>
-              <span className="personal-profile-text14">*</span>
+              <span className="personal-profile-text12">*</span>
               <span>&quot; are mandatory.</span>
             </span>
             <div className="personal-profile-container3">
               <div className="personal-profile-container4">
-                <label className="personal-profile-text16">
-                  <span className="personal-profile-text17">
+                <label className="personal-profile-text14">
+                  <span className="personal-profile-text15">
                     First or Given Name
                     <span
                       dangerouslySetInnerHTML={{
@@ -190,13 +194,13 @@ const PersonalProfile = (props) => {
                       }}
                     />
                   </span>
-                  <span className="personal-profile-text18">*</span>
-                  <span className="personal-profile-text19">:</span>
+                  <span className="personal-profile-text16">*</span>
+                  <span className="personal-profile-text17">:</span>
                 </label>
-                <label className="personal-profile-text20">
+                <label className="personal-profile-text18">
                   Last or Family Name:
                 </label>
-                <label className="personal-profile-text21">
+                <label className="personal-profile-text19">
                   <span>
                     Date of Birth
                     <span
@@ -205,32 +209,32 @@ const PersonalProfile = (props) => {
                       }}
                     />
                   </span>
-                  <span className="personal-profile-text23">*</span>
+                  <span className="personal-profile-text21">*</span>
                   <span>:</span>
                 </label>
-                <label className="personal-profile-text25">
+                <label className="personal-profile-text23">
                   Personal Email:
                 </label>
-                <label className="personal-profile-text26">Corp. Email:</label>
-                <label className="personal-profile-text27">
+                <label className="personal-profile-text24">Corp. Email:</label>
+                <label className="personal-profile-text25">
                   <span>Name of Employer</span>
-                  <span className="personal-profile-text29">*</span>
+                  <span className="personal-profile-text27">*</span>
                   <span>:</span>
                 </label>
-                <label className="personal-profile-text31">
+                <label className="personal-profile-text29">
                   <span>Phone</span>
-                  <span className="personal-profile-text33">*</span>
+                  <span className="personal-profile-text31">*</span>
                   <span>:</span>
                 </label>
-                <label className="personal-profile-text35">Aadhaar Id:</label>
+                <label className="personal-profile-text33">Aadhaar Id:</label>
                 <label className="personal-profile-profile-pic">
                   Profile Pic:
                 </label>
               </div>
               <div className="personal-profile-container5">
-                <label className="personal-profile-text36">First Name</label>
-                <label className="personal-profile-text37">Last Name</label>
-                <label className="personal-profile-text38">Nov 2, 2008</label>
+                <label className="personal-profile-text34">First Name</label>
+                <label className="personal-profile-text35">Last Name</label>
+                <label className="personal-profile-text36">Nov 2, 2008</label>
                 <input
                   type="email"
                   placeholder="abc@gmail.com"
@@ -273,8 +277,8 @@ const PersonalProfile = (props) => {
         </div>
       </section>
       <footer className="personal-profile-footer">
-        <span className="personal-profile-text39">TrustedCreds</span>
-        <span className="personal-profile-text40">
+        <span className="personal-profile-text37">TrustedCreds</span>
+        <span className="personal-profile-text38">
           © 2023 TrustedCreds, All Rights Reserved.
         </span>
         <IconGroup></IconGroup>

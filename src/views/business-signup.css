@@ -33,21 +33,23 @@
   align-items: center;
   flex-direction: row;
 }
+.business-signup-navlink1 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  text-decoration: none;
+}
+.business-signup-navlink2 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .business-signup-text {
   font-size: 18px;
   font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
 }
 .business-signup-text01 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
-}
-.business-signup-text02 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
-}
-.business-signup-text03 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
@@ -84,7 +86,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: #060000;
 }
-.business-signup-text04 {
+.business-signup-text02 {
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -242,6 +244,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.business-signup-text03 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-signup-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .business-signup-text05 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -249,12 +257,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .business-signup-text07 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.business-signup-text08 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.business-signup-text09 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .business-signup-container2 {
@@ -299,7 +301,7 @@
   justify-content: center;
   background-color: #5228F5;
 }
-.business-signup-text10 {
+.business-signup-text08 {
   color: rgb(255, 255, 255);
   font-size: 52px;
   font-style: normal;
@@ -309,7 +311,7 @@
   font-weight: 400;
   line-height: 80px;
 }
-.business-signup-text11 {
+.business-signup-text09 {
   color: rgb(238, 233, 254);
   width: 100%;
   font-size: 41px;
@@ -374,13 +376,13 @@
   padding-bottom: var(--dl-space-space-twounits);
   background-color: #088756;
 }
-.business-signup-text12 {
+.business-signup-text10 {
   color: #ffffff;
   font-size: 32px;
   align-self: center;
   font-family: Alegreya Sans SC;
 }
-.business-signup-text13 {
+.business-signup-text11 {
   color: rgb(255, 255, 255);
   font-size: 26px;
   align-self: center;
@@ -409,7 +411,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.business-signup-text20 {
+.business-signup-text18 {
   color: rgb(255, 255, 255);
   font-size: 23px;
   font-style: normal;
@@ -418,22 +420,22 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   text-decoration: underline;
 }
-.business-signup-text21 {
+.business-signup-text19 {
   font-style: italic;
   font-family: Alegreya Sans SC;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.business-signup-text22 {
+.business-signup-text20 {
   color: #ffffff;
 }
+.business-signup-text21 {
+  color: #080500;
+}
+.business-signup-text22 {
+  color: #080500;
+}
 .business-signup-text23 {
-  color: #080500;
-}
-.business-signup-text24 {
-  color: #080500;
-}
-.business-signup-text25 {
   color: #ffffff;
 }
 .business-signup-container3 {
@@ -456,7 +458,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.business-signup-text26 {
+.business-signup-text24 {
   padding: 0.5rem;
   font-size: 18px;
   align-self: flex-end;
@@ -466,16 +468,16 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
+.business-signup-text25 {
+  color: #fdfdfd;
+}
+.business-signup-text26 {
+  color: var(--dl-color-gray-black);
+}
 .business-signup-text27 {
   color: #fdfdfd;
 }
 .business-signup-text28 {
-  color: var(--dl-color-gray-black);
-}
-.business-signup-text29 {
-  color: #fdfdfd;
-}
-.business-signup-text30 {
   color: rgb(253, 253, 253);
   padding: 0.5rem;
   font-size: 18px;
@@ -485,10 +487,23 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.business-signup-text32 {
+.business-signup-text30 {
   color: var(--dl-color-gray-black);
 }
-.business-signup-text34 {
+.business-signup-text32 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-signup-text33 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -502,38 +517,25 @@
   padding-bottom: 0.5rem;
 }
 .business-signup-text35 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
+  color: #040000;
 }
 .business-signup-text37 {
-  color: #040000;
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
 }
 .business-signup-text39 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.business-signup-text41 {
   color: #040000;
 }
-.business-signup-text43 {
+.business-signup-text41 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -546,7 +548,7 @@
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-.business-signup-text44 {
+.business-signup-text42 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -559,7 +561,7 @@
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-.business-signup-text47 {
+.business-signup-text45 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -572,10 +574,10 @@
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-.business-signup-text49 {
+.business-signup-text47 {
   color: var(--dl-color-gray-black);
 }
-.business-signup-text51 {
+.business-signup-text49 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -588,7 +590,7 @@
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-.business-signup-text53 {
+.business-signup-text51 {
   color: var(--dl-color-gray-black);
 }
 .business-signup-container5 {
@@ -683,10 +685,10 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.business-signup-text55 {
+.business-signup-text53 {
   font-family: Alegreya Sans SC;
 }
-.business-signup-text56 {
+.business-signup-text54 {
   font-family: Alegreya Sans SC;
 }
 @media(max-width: 1600px) {
@@ -696,15 +698,15 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .business-signup-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-text {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .business-signup-text01 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .business-signup-text02 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .business-signup-text03 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
@@ -717,7 +719,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .business-signup-text04 {
+  .business-signup-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -746,13 +748,13 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .business-signup-text12 {
+  .business-signup-text10 {
     color: #ffffff;
     font-size: 32px;
     align-self: center;
     font-family: Alegreya Sans SC;
   }
-  .business-signup-text13 {
+  .business-signup-text11 {
     color: #ffffff;
     font-size: 26px;
     align-self: center;
@@ -768,19 +770,19 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .business-signup-navlink1 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .business-signup-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .business-signup-text {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
   .business-signup-text01 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .business-signup-text02 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .business-signup-text03 {
     font-size: 18px;
   }
   .business-signup-login {
@@ -792,7 +794,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .business-signup-text04 {
+  .business-signup-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -813,7 +815,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .business-signup-text10 {
+  .business-signup-text08 {
     color: rgb(255, 255, 255);
     width: 100%;
     font-size: 52px;
@@ -822,21 +824,21 @@
     font-weight: 400;
     line-height: 80px;
   }
-  .business-signup-text11 {
+  .business-signup-text09 {
     color: rgb(238, 233, 254);
     width: 100%;
     font-size: 41px;
     font-family: Alegreya Sans SC;
     line-height: 30px;
   }
-  .business-signup-text12 {
+  .business-signup-text10 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     align-self: center;
     text-align: left;
     font-family: Alegreya Sans SC;
   }
-  .business-signup-text13 {
+  .business-signup-text11 {
     color: rgb(255, 255, 255);
     font-size: 26px;
     align-self: center;
@@ -844,11 +846,11 @@
     text-align: left;
     font-family: Alegreya Sans SC;
   }
-  .business-signup-text14 {
+  .business-signup-text12 {
     font-size: 26px;
     font-family: Alegreya Sans SC;
   }
-  .business-signup-text15 {
+  .business-signup-text13 {
     font-size: 26px;
   }
   .business-signup-centered-container {
@@ -862,14 +864,14 @@
   .business-signup-footer {
     background-color: #ffffff;
   }
-  .business-signup-text55 {
+  .business-signup-text53 {
     font-size: 26px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
     text-transform: capitalize;
   }
-  .business-signup-text56 {
+  .business-signup-text54 {
     color: #000000;
     font-family: Alegreya Sans SC;
   }
@@ -919,13 +921,13 @@
   .business-signup-desktop-menu {
     display: none;
   }
+  .business-signup-navlink2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .business-signup-text {
+    margin-left: var(--dl-space-space-unit);
+  }
   .business-signup-text01 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .business-signup-text02 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .business-signup-text03 {
     margin-left: var(--dl-space-space-unit);
   }
   .business-signup-btn-group {
@@ -949,14 +951,14 @@
     padding-bottom: var(--dl-space-space-twounits);
     background-color: var(--dl-color-template-blue-bg);
   }
-  .business-signup-text10 {
+  .business-signup-text08 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px;
   }
-  .business-signup-text11 {
+  .business-signup-text09 {
     color: rgb(238, 233, 254);
     font-size: 16px;
     margin-top: var(--dl-space-space-unit);
@@ -986,7 +988,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .business-signup-text56 {
+  .business-signup-text54 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -1003,7 +1005,7 @@
     height: 300px;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .business-signup-text11 {
+  .business-signup-text09 {
     color: #EEE9FE;
   }
   .business-signup-signup-form {
@@ -1014,7 +1016,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .business-signup-text56 {
+  .business-signup-text54 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

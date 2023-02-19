@@ -33,21 +33,23 @@
   align-items: center;
   flex-direction: row;
 }
+.login-navlink1 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  text-decoration: none;
+}
+.login-navlink2 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .login-text {
   font-size: 18px;
   font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
 }
 .login-text01 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
-}
-.login-text02 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
-}
-.login-text03 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
@@ -84,7 +86,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: #060000;
 }
-.login-text04 {
+.login-text02 {
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -242,6 +244,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.login-text03 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.login-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .login-text05 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -249,12 +257,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .login-text07 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.login-text08 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.login-text09 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .login-container2 {
@@ -315,7 +317,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.login-text10 {
+.login-text08 {
   color: rgb(255, 255, 255);
   font-size: 23px;
   font-style: normal;
@@ -358,13 +360,13 @@
   align-items: center;
   flex-direction: column;
 }
-.login-text11 {
+.login-text09 {
   color: var(--dl-color-gray-white);
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-unit);
 }
-.login-text12 {
+.login-text10 {
   color: var(--dl-color-gray-white);
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-unit);
@@ -446,10 +448,10 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.login-text13 {
+.login-text11 {
   font-family: Alegreya Sans SC;
 }
-.login-text14 {
+.login-text12 {
   font-family: Alegreya Sans SC;
 }
 @media(max-width: 1600px) {
@@ -459,15 +461,15 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .login-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .login-text {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .login-text01 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .login-text02 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .login-text03 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
@@ -480,7 +482,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .login-text04 {
+  .login-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -509,19 +511,19 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .login-navlink1 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .login-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .login-text {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
   .login-text01 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .login-text02 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .login-text03 {
     font-size: 18px;
   }
   .login-login {
@@ -533,7 +535,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .login-text04 {
+  .login-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -559,14 +561,14 @@
   .login-footer {
     background-color: #ffffff;
   }
-  .login-text13 {
+  .login-text11 {
     font-size: 26px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
     text-transform: capitalize;
   }
-  .login-text14 {
+  .login-text12 {
     color: #000000;
     font-family: Alegreya Sans SC;
   }
@@ -597,13 +599,13 @@
   .login-desktop-menu {
     display: none;
   }
+  .login-navlink2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .login-text {
+    margin-left: var(--dl-space-space-unit);
+  }
   .login-text01 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .login-text02 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .login-text03 {
     margin-left: var(--dl-space-space-unit);
   }
   .login-btn-group {
@@ -629,7 +631,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .login-text14 {
+  .login-text12 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -650,7 +652,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .login-text14 {
+  .login-text12 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

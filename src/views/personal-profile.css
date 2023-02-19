@@ -34,21 +34,23 @@
   align-items: center;
   flex-direction: row;
 }
+.personal-profile-navlink1 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  text-decoration: none;
+}
+.personal-profile-navlink2 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .personal-profile-text {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
 }
 .personal-profile-text01 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-}
-.personal-profile-text02 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
-}
-.personal-profile-text03 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
@@ -78,7 +80,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: #060000;
 }
-.personal-profile-text04 {
+.personal-profile-text02 {
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -236,6 +238,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.personal-profile-text03 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.personal-profile-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
 .personal-profile-text05 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -243,12 +251,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .personal-profile-text07 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-profile-text08 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-profile-text09 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .personal-profile-container2 {
@@ -290,7 +292,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   background-color: #211062;
 }
-.personal-profile-text10 {
+.personal-profile-text08 {
   color: #ffffff;
   font-size: 32px;
   align-self: center;
@@ -316,7 +318,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.personal-profile-text11 {
+.personal-profile-text09 {
   color: rgb(255, 255, 255);
   font-size: 23px;
   font-style: normal;
@@ -325,14 +327,14 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   text-decoration: underline;
 }
-.personal-profile-text12 {
+.personal-profile-text10 {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-family: Alegreya Sans SC;
   font-weight: 100;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.personal-profile-text14 {
+.personal-profile-text12 {
   color: var(--dl-color-primary-700);
 }
 .personal-profile-container3 {
@@ -355,7 +357,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.personal-profile-text16 {
+.personal-profile-text14 {
   padding: 0.5rem;
   font-size: 18px;
   align-self: flex-end;
@@ -365,16 +367,16 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
+.personal-profile-text15 {
+  color: #fdfdfd;
+}
+.personal-profile-text16 {
+  color: var(--dl-color-primary-700);
+}
 .personal-profile-text17 {
   color: #fdfdfd;
 }
 .personal-profile-text18 {
-  color: var(--dl-color-primary-700);
-}
-.personal-profile-text19 {
-  color: #fdfdfd;
-}
-.personal-profile-text20 {
   color: rgb(253, 253, 253);
   padding: 0.5rem;
   font-size: 18px;
@@ -384,7 +386,7 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-profile-text21 {
+.personal-profile-text19 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -397,8 +399,34 @@
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-.personal-profile-text23 {
+.personal-profile-text21 {
   color: var(--dl-color-primary-700);
+}
+.personal-profile-text23 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.personal-profile-text24 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
 }
 .personal-profile-text25 {
   color: rgb(253, 253, 253);
@@ -413,36 +441,10 @@
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-.personal-profile-text26 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
 .personal-profile-text27 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-profile-text29 {
   color: var(--dl-color-primary-700);
 }
-.personal-profile-text31 {
+.personal-profile-text29 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -455,10 +457,10 @@
   padding-right: 1rem;
   padding-bottom: 0.5rem;
 }
-.personal-profile-text33 {
+.personal-profile-text31 {
   color: var(--dl-color-primary-700);
 }
-.personal-profile-text35 {
+.personal-profile-text33 {
   color: rgb(253, 253, 253);
   font-size: 18px;
   align-self: flex-end;
@@ -494,7 +496,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.personal-profile-text36 {
+.personal-profile-text34 {
   color: #fdfdfd;
   padding: 0.5rem;
   font-size: 18px;
@@ -505,7 +507,7 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-profile-text37 {
+.personal-profile-text35 {
   color: rgb(253, 253, 253);
   padding: 0.5rem;
   font-size: 18px;
@@ -516,7 +518,7 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-profile-text38 {
+.personal-profile-text36 {
   color: rgb(253, 253, 253);
   padding: 0.5rem;
   font-size: 18px;
@@ -591,10 +593,10 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.personal-profile-text39 {
+.personal-profile-text37 {
   font-family: Alegreya Sans SC;
 }
-.personal-profile-text40 {
+.personal-profile-text38 {
   font-family: Alegreya Sans SC;
 }
 @media(max-width: 1600px) {
@@ -604,15 +606,15 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .personal-profile-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .personal-profile-text {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
-  .personal-profile-text02 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .personal-profile-text03 {
+  .personal-profile-text01 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
@@ -621,7 +623,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .personal-profile-text04 {
+  .personal-profile-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -643,7 +645,7 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .personal-profile-text10 {
+  .personal-profile-text08 {
     color: #ffffff;
     font-size: 32px;
     align-self: center;
@@ -657,19 +659,19 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
+  .personal-profile-navlink1 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
+  .personal-profile-navlink2 {
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+  }
   .personal-profile-text {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
   .personal-profile-text01 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .personal-profile-text02 {
-    font-size: 18px;
-    font-family: Alegreya Sans SC;
-  }
-  .personal-profile-text03 {
     font-size: 18px;
   }
   .personal-profile-dropdown-toggle {
@@ -677,7 +679,7 @@
     border-radius: 56px;
     background-color: #040000;
   }
-  .personal-profile-text04 {
+  .personal-profile-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
@@ -695,7 +697,7 @@
     font-family: Alegreya Sans SC;
     font-weight: 500;
   }
-  .personal-profile-text10 {
+  .personal-profile-text08 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     align-self: center;
@@ -713,14 +715,14 @@
   .personal-profile-footer {
     background-color: #ffffff;
   }
-  .personal-profile-text39 {
+  .personal-profile-text37 {
     font-size: 26px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
     text-transform: capitalize;
   }
-  .personal-profile-text40 {
+  .personal-profile-text38 {
     color: #000000;
     font-family: Alegreya Sans SC;
   }
@@ -744,13 +746,13 @@
   .personal-profile-desktop-menu {
     display: none;
   }
+  .personal-profile-navlink2 {
+    margin-left: var(--dl-space-space-unit);
+  }
   .personal-profile-text {
     margin-left: var(--dl-space-space-unit);
   }
-  .personal-profile-text02 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .personal-profile-text03 {
+  .personal-profile-text01 {
     margin-left: var(--dl-space-space-unit);
   }
   .personal-profile-btn-group {
@@ -783,7 +785,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .personal-profile-text40 {
+  .personal-profile-text38 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -804,7 +806,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .personal-profile-text40 {
+  .personal-profile-text38 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

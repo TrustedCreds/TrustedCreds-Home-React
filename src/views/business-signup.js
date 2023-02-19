@@ -30,10 +30,14 @@ const BusinessSignup = (props) => {
             data-role="Nav"
             className="business-signup-nav"
           >
-            <span className="business-signup-text">For Individuals</span>
-            <span className="business-signup-text01">For Business</span>
-            <span className="business-signup-text02">Features</span>
-            <span className="business-signup-text03">Contact Us</span>
+            <Link to="/personal-signup1" className="business-signup-navlink1">
+              For Individuals
+            </Link>
+            <Link to="/personal-signup12" className="business-signup-navlink2">
+              For Business
+            </Link>
+            <span className="business-signup-text">Features</span>
+            <span className="business-signup-text01">Contact Us</span>
           </nav>
         </div>
         <div
@@ -51,7 +55,7 @@ const BusinessSignup = (props) => {
               data-thq="thq-dropdown-toggle"
               className="business-signup-dropdown-toggle"
             >
-              <span className="business-signup-text04">Signup</span>
+              <span className="business-signup-text02">Signup</span>
               <div
                 data-thq="thq-dropdown-arrow"
                 className="business-signup-dropdown-arrow"
@@ -131,11 +135,11 @@ const BusinessSignup = (props) => {
               data-role="Nav"
               className="business-signup-nav2"
             >
-              <span className="business-signup-text05">About</span>
-              <span className="business-signup-text06">Features</span>
-              <span className="business-signup-text07">Pricing</span>
-              <span className="business-signup-text08">Team</span>
-              <span className="business-signup-text09">Blog</span>
+              <span className="business-signup-text03">About</span>
+              <span className="business-signup-text04">Features</span>
+              <span className="business-signup-text05">Pricing</span>
+              <span className="business-signup-text06">Team</span>
+              <span className="business-signup-text07">Blog</span>
             </nav>
             <div className="business-signup-container2">
               <button className="business-signup-login1 button">Login</button>
@@ -165,8 +169,8 @@ const BusinessSignup = (props) => {
         </div>
       </header>
       <section className="business-signup-hero">
-        <h1 className="business-signup-text10">Build Trusted Ecosystem</h1>
-        <p className="business-signup-text11">Shared | Verifiable | Private</p>
+        <h1 className="business-signup-text08">Build Trusted Ecosystem</h1>
+        <p className="business-signup-text09">Shared | Verifiable | Private</p>
       </section>
       <section className="business-signup-quote-container">
         <div className="business-signup-quote">
@@ -178,12 +182,12 @@ const BusinessSignup = (props) => {
         </div>
       </section>
       <section className="business-signup-signup-form">
-        <span className="business-signup-text12">Welcome to TrustedCreds!</span>
-        <span className="business-signup-text13">
-          <span className="business-signup-text14">
+        <span className="business-signup-text10">Welcome to TrustedCreds!</span>
+        <span className="business-signup-text11">
+          <span className="business-signup-text12">
             -  Be a Verified Issuer of Credentials .
           </span>
-          <br className="business-signup-text15"></br>
+          <br className="business-signup-text13"></br>
           <span>- Issue and Verify Trusted Credentials.</span>
           <br></br>
           <span>-  Define Custom Workflows.</span>
@@ -191,33 +195,33 @@ const BusinessSignup = (props) => {
         </span>
         <div className="business-signup-centered-container">
           <form name="personal-signup-form" className="business-signup-form">
-            <span className="business-signup-text20">Business Signup</span>
-            <span className="business-signup-text21">
-              <span className="business-signup-text22">
+            <span className="business-signup-text18">Business Signup</span>
+            <span className="business-signup-text19">
+              <span className="business-signup-text20">
                 Fields marked with &quot;
               </span>
-              <span className="business-signup-text23">*</span>
-              <span className="business-signup-text24">&quot;</span>
-              <span className="business-signup-text25"> are mandatory.</span>
+              <span className="business-signup-text21">*</span>
+              <span className="business-signup-text22">&quot;</span>
+              <span className="business-signup-text23"> are mandatory.</span>
             </span>
             <div className="business-signup-container3">
               <div className="business-signup-container4">
-                <label className="business-signup-text26">
-                  <span className="business-signup-text27">
+                <label className="business-signup-text24">
+                  <span className="business-signup-text25">
                     Name  of Business
                   </span>
-                  <span className="business-signup-text28">*</span>
-                  <span className="business-signup-text29">:</span>
+                  <span className="business-signup-text26">*</span>
+                  <span className="business-signup-text27">:</span>
                 </label>
-                <label className="business-signup-text30">
+                <label className="business-signup-text28">
                   <span>Identification No. </span>
-                  <span className="business-signup-text32">*</span>
+                  <span className="business-signup-text30">*</span>
                   <span>: </span>
                 </label>
-                <label className="business-signup-text34">
+                <label className="business-signup-text32">
                   Industry Class:
                 </label>
-                <label className="business-signup-text35">
+                <label className="business-signup-text33">
                   <span>
                     Contact Email
                     <span
@@ -226,20 +230,20 @@ const BusinessSignup = (props) => {
                       }}
                     />
                   </span>
-                  <span className="business-signup-text37">*</span>
+                  <span className="business-signup-text35">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-signup-text39">
+                <label className="business-signup-text37">
                   <span>Contact Phone </span>
-                  <span className="business-signup-text41">*</span>
+                  <span className="business-signup-text39">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-signup-text43">Website:</label>
-                <label className="business-signup-text44">
+                <label className="business-signup-text41">Website:</label>
+                <label className="business-signup-text42">
                   <span>Number of Employees</span>
                   <span>:</span>
                 </label>
-                <label className="business-signup-text47">
+                <label className="business-signup-text45">
                   <span>
                     Address
                     <span
@@ -248,12 +252,12 @@ const BusinessSignup = (props) => {
                       }}
                     />
                   </span>
-                  <span className="business-signup-text49">*</span>
+                  <span className="business-signup-text47">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-signup-text51">
+                <label className="business-signup-text49">
                   <span>Password</span>
-                  <span className="business-signup-text53">*</span>
+                  <span className="business-signup-text51">*</span>
                   <span>:</span>
                 </label>
               </div>
@@ -328,8 +332,8 @@ const BusinessSignup = (props) => {
         </div>
       </section>
       <footer className="business-signup-footer">
-        <span className="business-signup-text55">TrustedCreds</span>
-        <span className="business-signup-text56">
+        <span className="business-signup-text53">TrustedCreds</span>
+        <span className="business-signup-text54">
           © 2023 TrustedCreds, All Rights Reserved.
         </span>
         <IconGroup></IconGroup>

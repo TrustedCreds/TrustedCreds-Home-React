@@ -30,10 +30,14 @@ const PersonalSignup = (props) => {
             data-role="Nav"
             className="personal-signup-nav"
           >
-            <span className="personal-signup-text">For Individuals</span>
-            <span className="personal-signup-text01">For Business</span>
-            <span className="personal-signup-text02">Features</span>
-            <span className="personal-signup-text03">Contact Us</span>
+            <Link to="/personal-signup1" className="personal-signup-navlink1">
+              For Individuals
+            </Link>
+            <Link to="/personal-signup12" className="personal-signup-navlink2">
+              For Business
+            </Link>
+            <span className="personal-signup-text">Features</span>
+            <span className="personal-signup-text01">Contact Us</span>
           </nav>
         </div>
         <div
@@ -51,7 +55,7 @@ const PersonalSignup = (props) => {
               data-thq="thq-dropdown-toggle"
               className="personal-signup-dropdown-toggle"
             >
-              <span className="personal-signup-text04">Signup</span>
+              <span className="personal-signup-text02">Signup</span>
               <div
                 data-thq="thq-dropdown-arrow"
                 className="personal-signup-dropdown-arrow"
@@ -131,11 +135,11 @@ const PersonalSignup = (props) => {
               data-role="Nav"
               className="personal-signup-nav2"
             >
-              <span className="personal-signup-text05">About</span>
-              <span className="personal-signup-text06">Features</span>
-              <span className="personal-signup-text07">Pricing</span>
-              <span className="personal-signup-text08">Team</span>
-              <span className="personal-signup-text09">Blog</span>
+              <span className="personal-signup-text03">About</span>
+              <span className="personal-signup-text04">Features</span>
+              <span className="personal-signup-text05">Pricing</span>
+              <span className="personal-signup-text06">Team</span>
+              <span className="personal-signup-text07">Blog</span>
             </nav>
             <div className="personal-signup-container2">
               <button className="personal-signup-login1 button">Login</button>
@@ -165,10 +169,10 @@ const PersonalSignup = (props) => {
         </div>
       </header>
       <section className="personal-signup-hero">
-        <h1 className="personal-signup-text10">
+        <h1 className="personal-signup-text08">
           Claim your Decentralised Id and Wallet
         </h1>
-        <p className="personal-signup-text11">Trusted | Verifiable | Private</p>
+        <p className="personal-signup-text09">Trusted | Verifiable | Private</p>
       </section>
       <section className="personal-signup-quote-container">
         <div className="personal-signup-quote">
@@ -179,13 +183,13 @@ const PersonalSignup = (props) => {
         </div>
       </section>
       <section className="personal-signup-signup-form">
-        <span className="personal-signup-text12">Welcome to TrustedCreds!</span>
-        <span className="personal-signup-text13">
-          <span className="personal-signup-text14">
+        <span className="personal-signup-text10">Welcome to TrustedCreds!</span>
+        <span className="personal-signup-text11">
+          <span className="personal-signup-text12">
             -  Create a Decentralised ID and Get Wallet .
           </span>
-          <br className="personal-signup-text15"></br>
-          <span className="personal-signup-text16">
+          <br className="personal-signup-text13"></br>
+          <span className="personal-signup-text14">
             -  Secure Credentials in Wallet, and Share ID with Orgs.
           </span>
           <br></br>
@@ -194,16 +198,16 @@ const PersonalSignup = (props) => {
         </span>
         <div className="personal-signup-centered-container">
           <form name="personal-signup-form" className="personal-signup-form">
-            <span className="personal-signup-text20">Personal Signup</span>
-            <span className="personal-signup-text21">
+            <span className="personal-signup-text18">Personal Signup</span>
+            <span className="personal-signup-text19">
               <span>Fields marked with &quot;</span>
-              <span className="personal-signup-text23">*</span>
+              <span className="personal-signup-text21">*</span>
               <span>&quot; are mandatory.</span>
             </span>
             <div className="personal-signup-container3">
               <div className="personal-signup-container4">
-                <label className="personal-signup-text25">
-                  <span className="personal-signup-text26">
+                <label className="personal-signup-text23">
+                  <span className="personal-signup-text24">
                     First or Given Name
                     <span
                       dangerouslySetInnerHTML={{
@@ -211,13 +215,13 @@ const PersonalSignup = (props) => {
                       }}
                     />
                   </span>
-                  <span className="personal-signup-text27">*</span>
-                  <span className="personal-signup-text28">:</span>
+                  <span className="personal-signup-text25">*</span>
+                  <span className="personal-signup-text26">:</span>
                 </label>
-                <label className="personal-signup-text29">
+                <label className="personal-signup-text27">
                   Last or Family Name:
                 </label>
-                <label className="personal-signup-text30">
+                <label className="personal-signup-text28">
                   <span>
                     Date of Birth
                     <span
@@ -226,26 +230,26 @@ const PersonalSignup = (props) => {
                       }}
                     />
                   </span>
-                  <span className="personal-signup-text32">*</span>
+                  <span className="personal-signup-text30">*</span>
                   <span>:</span>
                 </label>
-                <label className="personal-signup-text34">
+                <label className="personal-signup-text32">
                   Personal Email:
                 </label>
-                <label className="personal-signup-text35">Corp. Email:</label>
-                <label className="personal-signup-text36">
+                <label className="personal-signup-text33">Corp. Email:</label>
+                <label className="personal-signup-text34">
                   <span>Name of Employer</span>
-                  <span className="personal-signup-text38">*</span>
+                  <span className="personal-signup-text36">*</span>
                   <span>:</span>
                 </label>
-                <label className="personal-signup-text40">
+                <label className="personal-signup-text38">
                   <span>Phone</span>
-                  <span className="personal-signup-text42">*</span>
+                  <span className="personal-signup-text40">*</span>
                   <span>:</span>
                 </label>
-                <label className="personal-signup-text44">
+                <label className="personal-signup-text42">
                   <span>Password</span>
-                  <span className="personal-signup-text46">*</span>
+                  <span className="personal-signup-text44">*</span>
                   <span>:</span>
                 </label>
               </div>
@@ -308,8 +312,8 @@ const PersonalSignup = (props) => {
         </div>
       </section>
       <footer className="personal-signup-footer">
-        <span className="personal-signup-text48">TrustedCreds</span>
-        <span className="personal-signup-text49">
+        <span className="personal-signup-text46">TrustedCreds</span>
+        <span className="personal-signup-text47">
           © 2023 TrustedCreds, All Rights Reserved.
         </span>
         <IconGroup></IconGroup>

@@ -27,10 +27,14 @@ const Login = (props) => {
             data-role="Nav"
             className="login-nav"
           >
-            <span className="login-text">For Individuals</span>
-            <span className="login-text01">For Business</span>
-            <span className="login-text02">Features</span>
-            <span className="login-text03">Contact Us</span>
+            <Link to="/personal-signup1" className="login-navlink1">
+              For Individuals
+            </Link>
+            <Link to="/personal-signup12" className="login-navlink2">
+              For Business
+            </Link>
+            <span className="login-text">Features</span>
+            <span className="login-text01">Contact Us</span>
           </nav>
         </div>
         <div data-thq="thq-navbar-btn-group" className="login-btn-group">
@@ -42,7 +46,7 @@ const Login = (props) => {
               data-thq="thq-dropdown-toggle"
               className="login-dropdown-toggle"
             >
-              <span className="login-text04">Signup</span>
+              <span className="login-text02">Signup</span>
               <div
                 data-thq="thq-dropdown-arrow"
                 className="login-dropdown-arrow"
@@ -104,11 +108,11 @@ const Login = (props) => {
               data-role="Nav"
               className="login-nav2"
             >
-              <span className="login-text05">About</span>
-              <span className="login-text06">Features</span>
-              <span className="login-text07">Pricing</span>
-              <span className="login-text08">Team</span>
-              <span className="login-text09">Blog</span>
+              <span className="login-text03">About</span>
+              <span className="login-text04">Features</span>
+              <span className="login-text05">Pricing</span>
+              <span className="login-text06">Team</span>
+              <span className="login-text07">Blog</span>
             </nav>
             <div className="login-container2">
               <button className="login-login1 button">Login</button>
@@ -131,7 +135,7 @@ const Login = (props) => {
       <section className="login-signup-form">
         <div className="login-centered-container">
           <form name="personal-signup-form" className="login-form">
-            <span className="login-text10">Login</span>
+            <span className="login-text08">Login</span>
             <div id="userType" className="login-container3">
               <div className="login-container4">
                 <input
@@ -146,8 +150,8 @@ const Login = (props) => {
                 />
               </div>
               <div className="login-container5">
-                <span className="login-text11">Personal</span>
-                <span className="login-text12">Business</span>
+                <span className="login-text09">Personal</span>
+                <span className="login-text10">Business</span>
               </div>
             </div>
             <div className="login-container6">
@@ -182,8 +186,8 @@ const Login = (props) => {
         </div>
       </section>
       <footer className="login-footer">
-        <span className="login-text13">TrustedCreds</span>
-        <span className="login-text14">
+        <span className="login-text11">TrustedCreds</span>
+        <span className="login-text12">
           © 2023 TrustedCreds, All Rights Reserved.
         </span>
         <IconGroup></IconGroup>

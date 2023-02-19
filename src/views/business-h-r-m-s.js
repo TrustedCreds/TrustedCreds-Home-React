@@ -30,10 +30,14 @@ const BusinessHRMS = (props) => {
             data-role="Nav"
             className="business-h-r-m-s-nav"
           >
-            <span className="business-h-r-m-s-text">For Individuals</span>
-            <span className="business-h-r-m-s-text01">For Business</span>
-            <span className="business-h-r-m-s-text02">Features</span>
-            <span className="business-h-r-m-s-text03">Contact Us</span>
+            <Link to="/personal-signup1" className="business-h-r-m-s-navlink1">
+              For Individuals
+            </Link>
+            <Link to="/personal-signup12" className="business-h-r-m-s-navlink2">
+              For Business
+            </Link>
+            <span className="business-h-r-m-s-text">Features</span>
+            <span className="business-h-r-m-s-text01">Contact Us</span>
           </nav>
         </div>
         <div
@@ -48,7 +52,7 @@ const BusinessHRMS = (props) => {
               data-thq="thq-dropdown-toggle"
               className="business-h-r-m-s-dropdown-toggle"
             >
-              <span className="business-h-r-m-s-text04">More</span>
+              <span className="business-h-r-m-s-text02">More</span>
               <div
                 data-thq="thq-dropdown-arrow"
                 className="business-h-r-m-s-dropdown-arrow"
@@ -71,10 +75,10 @@ const BusinessHRMS = (props) => {
                   className="business-h-r-m-s-dropdown-toggle1"
                 >
                   <Link
-                    to="/personal-signup11"
+                    to="/personal-signup111"
                     className="business-h-r-m-s-view-credentials1"
                   >
-                    View Credentials
+                    Trust Center
                   </Link>
                 </div>
               </li>
@@ -134,11 +138,11 @@ const BusinessHRMS = (props) => {
               data-role="Nav"
               className="business-h-r-m-s-nav2"
             >
-              <span className="business-h-r-m-s-text05">About</span>
-              <span className="business-h-r-m-s-text06">Features</span>
-              <span className="business-h-r-m-s-text07">Pricing</span>
-              <span className="business-h-r-m-s-text08">Team</span>
-              <span className="business-h-r-m-s-text09">Blog</span>
+              <span className="business-h-r-m-s-text03">About</span>
+              <span className="business-h-r-m-s-text04">Features</span>
+              <span className="business-h-r-m-s-text05">Pricing</span>
+              <span className="business-h-r-m-s-text06">Team</span>
+              <span className="business-h-r-m-s-text07">Blog</span>
             </nav>
             <div className="business-h-r-m-s-container2">
               <button className="business-h-r-m-s-login button">Login</button>
@@ -168,23 +172,23 @@ const BusinessHRMS = (props) => {
         </div>
       </header>
       <section className="business-h-r-m-s-signup-form">
-        <span className="business-h-r-m-s-text10">
+        <span className="business-h-r-m-s-text08">
           DMart HR Management System
         </span>
         <div className="business-h-r-m-s-centered-container">
           <form name="personal-signup-form" className="business-h-r-m-s-form">
-            <span className="business-h-r-m-s-text11">
+            <span className="business-h-r-m-s-text09">
               Employee Event Simulator
             </span>
             <div className="business-h-r-m-s-container3">
               <div className="business-h-r-m-s-container4">
-                <label className="business-h-r-m-s-text12">
+                <label className="business-h-r-m-s-text10">
                   <span>Name of Employer</span>
-                  <span className="business-h-r-m-s-text14">*</span>
+                  <span className="business-h-r-m-s-text12">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-h-r-m-s-text16">
-                  <span className="business-h-r-m-s-text17">
+                <label className="business-h-r-m-s-text14">
+                  <span className="business-h-r-m-s-text15">
                     Full Name
                     <span
                       dangerouslySetInnerHTML={{
@@ -192,10 +196,10 @@ const BusinessHRMS = (props) => {
                       }}
                     />
                   </span>
-                  <span className="business-h-r-m-s-text18">*</span>
-                  <span className="business-h-r-m-s-text19">:</span>
+                  <span className="business-h-r-m-s-text16">*</span>
+                  <span className="business-h-r-m-s-text17">:</span>
                 </label>
-                <label className="business-h-r-m-s-text20">
+                <label className="business-h-r-m-s-text18">
                   <span>
                     Date of Birth
                     <span
@@ -204,36 +208,36 @@ const BusinessHRMS = (props) => {
                       }}
                     />
                   </span>
-                  <span className="business-h-r-m-s-text22">*</span>
+                  <span className="business-h-r-m-s-text20">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-h-r-m-s-text24">
+                <label className="business-h-r-m-s-text22">
                   Personal Email:
                 </label>
-                <label className="business-h-r-m-s-text25">Work Email:</label>
-                <label className="business-h-r-m-s-text26">Phone No.</label>
-                <label className="business-h-r-m-s-text27">
+                <label className="business-h-r-m-s-text23">Work Email:</label>
+                <label className="business-h-r-m-s-text24">Phone No.</label>
+                <label className="business-h-r-m-s-text25">
                   <span>Designation</span>
-                  <span className="business-h-r-m-s-text29">*</span>
+                  <span className="business-h-r-m-s-text27">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-h-r-m-s-text31">
+                <label className="business-h-r-m-s-text29">
                   <span>Work Office Location</span>
-                  <span className="business-h-r-m-s-text33">*</span>
+                  <span className="business-h-r-m-s-text31">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-h-r-m-s-text35">
+                <label className="business-h-r-m-s-text33">
                   <span>Duration in Org.</span>
-                  <span className="business-h-r-m-s-text37">*</span>
+                  <span className="business-h-r-m-s-text35">*</span>
                   <span>:</span>
                 </label>
-                <label className="business-h-r-m-s-text39">
+                <label className="business-h-r-m-s-text37">
                   <span>Exit Date</span>
-                  <span className="business-h-r-m-s-text41">*</span>
+                  <span className="business-h-r-m-s-text39">*</span>
                   <span>:</span>
                 </label>
                 <label className="business-h-r-m-s-label">Aadhaar Id:</label>
-                <label className="business-h-r-m-s-text43">
+                <label className="business-h-r-m-s-text41">
                   Additional Proof Docs.
                 </label>
                 <label className="business-h-r-m-s-profile-pic">
@@ -241,7 +245,7 @@ const BusinessHRMS = (props) => {
                 </label>
               </div>
               <div className="business-h-r-m-s-container5">
-                <label className="business-h-r-m-s-text44">
+                <label className="business-h-r-m-s-text42">
                   Avenue Supermart Ltd.
                 </label>
                 <input
@@ -317,8 +321,8 @@ const BusinessHRMS = (props) => {
         </div>
       </section>
       <footer className="business-h-r-m-s-footer">
-        <span className="business-h-r-m-s-text45">TrustedCreds</span>
-        <span className="business-h-r-m-s-text46">
+        <span className="business-h-r-m-s-text43">TrustedCreds</span>
+        <span className="business-h-r-m-s-text44">
           © 2023 TrustedCreds, All Rights Reserved.
         </span>
         <IconGroup></IconGroup>
