@@ -37,12 +37,12 @@
 .personal-profile-navlink1 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .personal-profile-navlink2 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
-  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .personal-profile-text {
@@ -606,7 +606,7 @@
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .personal-profile-navlink2 {
+  .personal-profile-navlink1 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
@@ -746,7 +746,7 @@
   .personal-profile-desktop-menu {
     display: none;
   }
-  .personal-profile-navlink2 {
+  .personal-profile-navlink1 {
     margin-left: var(--dl-space-space-unit);
   }
   .personal-profile-text {

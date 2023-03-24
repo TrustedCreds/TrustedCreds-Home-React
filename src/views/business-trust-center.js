@@ -31,13 +31,13 @@ const BusinessTrustCenter = (props) => {
             className="business-trust-center-nav"
           >
             <Link
-              to="/personal-signup1"
+              to="/personal-profile"
               className="business-trust-center-navlink1"
             >
               For Individuals
             </Link>
             <Link
-              to="/personal-signup12"
+              to="/personal-hrms"
               className="business-trust-center-navlink2"
             >
               For Business
@@ -63,7 +63,7 @@ const BusinessTrustCenter = (props) => {
                 data-thq="thq-dropdown-arrow"
                 className="business-trust-center-dropdown-arrow"
               >
-                <Link to="/personal-signup12">
+                <Link to="/personal-hrms">
                   <svg
                     viewBox="0 0 1024 1024"
                     className="business-trust-center-icon"
@@ -86,7 +86,7 @@ const BusinessTrustCenter = (props) => {
                   className="business-trust-center-dropdown-toggle1"
                 >
                   <Link
-                    to="/personal-signup1"
+                    to="/personal-profile"
                     className="business-trust-center-view-profile1"
                   >
                     HRMS

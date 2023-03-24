@@ -1,4 +1,4 @@
-.personal-credentials-container {
+.business-hrms-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   overflow-x: hidden;
   flex-direction: column;
 }
-.personal-credentials-navbar-interactive {
+.business-hrms-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -18,56 +18,56 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.personal-credentials-navlink {
+.business-hrms-navlink {
   font-size: 26px;
   font-style: inherit;
   font-family: Alegreya Sans SC;
   font-weight: 400;
   text-decoration: none;
 }
-.personal-credentials-desktop-menu {
+.business-hrms-desktop-menu {
   display: flex;
 }
-.personal-credentials-nav {
+.business-hrms-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.personal-credentials-navlink1 {
+.business-hrms-navlink1 {
+  font-size: 18px;
+  font-family: Alegreya Sans SC;
+  text-decoration: none;
+}
+.business-hrms-navlink2 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.personal-credentials-navlink2 {
-  font-size: 18px;
-  font-family: Alegreya Sans SC;
-  text-decoration: none;
-}
-.personal-credentials-text {
+.business-hrms-text {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
 }
-.personal-credentials-text01 {
+.business-hrms-text01 {
   font-size: 18px;
   font-family: Alegreya Sans SC;
   margin-left: var(--dl-space-space-twounits);
 }
-.personal-credentials-btn-group {
+.business-hrms-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.personal-credentials-thq-dropdown {
+.business-hrms-thq-dropdown {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.personal-credentials-dropdown-toggle {
+.business-hrms-dropdown-toggle {
   fill: #595959;
   color: #f9f7f7;
   width: 100%;
@@ -80,7 +80,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: #060000;
 }
-.personal-credentials-text02 {
+.business-hrms-text02 {
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -89,17 +89,17 @@
   margin-right: 4px;
   vertical-align: middle;
 }
-.personal-credentials-dropdown-arrow {
+.business-hrms-dropdown-arrow {
   transition: 0.3s;
 }
-.personal-credentials-icon {
+.business-hrms-icon {
   width: 18px;
   height: 18px;
   margin-top: auto;
   transition: 0.3s;
   margin-bottom: auto;
 }
-.personal-credentials-dropdown-list {
+.business-hrms-dropdown-list {
   left: 0%;
   width: max-content;
   display: none;
@@ -116,13 +116,13 @@
   background-color: #060000;
   list-style-position: inside;
 }
-.personal-credentials-view-profile {
+.business-hrms-view-credentials {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.personal-credentials-dropdown-toggle1 {
+.business-hrms-dropdown-toggle1 {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -135,12 +135,12 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.personal-credentials-dropdown-toggle1:hover {
+.business-hrms-dropdown-toggle1:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
 }
-.personal-credentials-view-profile1 {
+.business-hrms-view-credentials1 {
   color: rgb(255, 255, 255);
   width: 100%;
   cursor: pointer;
@@ -151,13 +151,13 @@
   font-weight: 500;
   text-decoration: none;
 }
-.personal-credentials-logout {
+.business-hrms-logout {
   cursor: pointer;
   display: inline-block;
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.personal-credentials-dropdown-toggle2 {
+.business-hrms-dropdown-toggle2 {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -170,12 +170,12 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.personal-credentials-dropdown-toggle2:hover {
+.business-hrms-dropdown-toggle2:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
 }
-.personal-credentials-logout1 {
+.business-hrms-logout1 {
   color: rgb(255, 255, 255);
   width: 100%;
   cursor: pointer;
@@ -186,16 +186,16 @@
   font-weight: 500;
   text-decoration: none;
 }
-.personal-credentials-burger-menu {
+.business-hrms-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.personal-credentials-icon02 {
+.business-hrms-icon02 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.personal-credentials-mobile-menu {
+.business-hrms-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -208,52 +208,52 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.personal-credentials-nav1 {
+.business-hrms-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.personal-credentials-container01 {
+.business-hrms-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.personal-credentials-image {
+.business-hrms-image {
   height: 2rem;
 }
-.personal-credentials-menu-close {
+.business-hrms-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.personal-credentials-icon04 {
+.business-hrms-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.personal-credentials-nav2 {
+.business-hrms-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.personal-credentials-text03 {
+.business-hrms-text03 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-text04 {
+.business-hrms-text04 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-text05 {
+.business-hrms-text05 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-text06 {
+.business-hrms-text06 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-text07 {
+.business-hrms-text07 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-container02 {
+.business-hrms-container2 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -261,706 +261,474 @@
   align-items: center;
   flex-direction: row;
 }
-.personal-credentials-login {
+.business-hrms-login {
   margin-right: var(--dl-space-space-twounits);
 }
-.personal-credentials-icon-group {
+.business-hrms-icon-group {
   display: flex;
 }
-.personal-credentials-icon06 {
+.business-hrms-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.personal-credentials-icon08 {
+.business-hrms-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.personal-credentials-icon10 {
+.business-hrms-icon10 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.personal-credentials-credentials {
+.business-hrms-signup-form {
   width: 100%;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-oneandhalfunits);
-  margin-bottom: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
-  background-color: #211062;
+  background-color: #088756;
 }
-.personal-credentials-text08 {
-  color: #ffffff;
+.business-hrms-text08 {
+  color: rgb(255, 255, 255);
   font-size: 32px;
   align-self: center;
   font-family: Alegreya Sans SC;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.personal-credentials-centered-container {
+.business-hrms-centered-container {
   width: auto;
   height: auto;
   display: flex;
   max-width: 1200px;
-  min-width: 1200px;
   align-items: flex-end;
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: space-between;
 }
-.personal-credentials-text09 {
-  color: rgb(255, 255, 255);
-  font-size: 26px;
-  align-self: center;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-  padding-bottom: var(--dl-space-space-twounits);
-  text-decoration: underline;
-}
-.personal-credentials-container03 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  padding-bottom: var(--dl-space-space-twounits);
-}
-.personal-credentials-container04 {
-  flex: 0 0 auto;
-  width: 48%;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  padding-right: 0px;
-}
-.personal-credentials-centered-container1 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  max-width: auto;
-  align-items: flex-end;
-  margin-bottom: var(--dl-space-space-twounits);
-  flex-direction: column;
-  justify-content: space-between;
-}
-.personal-credentials-text10 {
-  color: rgb(255, 255, 255);
-  font-size: 23px;
-  align-self: center;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-  text-decoration: underline;
-}
-.personal-credentials-form {
-  width: auto;
+.business-hrms-form {
   height: auto;
   display: flex;
   align-self: center;
-  margin-top: var(--dl-space-space-halfunit);
   align-items: center;
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.personal-credentials-text11 {
+.business-hrms-text09 {
   color: rgb(255, 255, 255);
-  font-style: italic;
+  font-size: 23px;
+  font-style: normal;
   font-family: Alegreya Sans SC;
-  font-weight: 100;
-  margin-bottom: var(--dl-space-space-twounits);
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: underline;
 }
-.personal-credentials-text13 {
-  color: var(--dl-color-primary-700);
-}
-.personal-credentials-container05 {
+.business-hrms-container3 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
   align-self: flex-start;
   align-items: center;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
+  justify-content: center;
+}
+.business-hrms-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.business-hrms-text10 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text12 {
+  color: var(--dl-color-primary-700);
+}
+.business-hrms-text14 {
+  padding: 0.5rem;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-text15 {
+  color: #fdfdfd;
+}
+.business-hrms-text16 {
+  color: var(--dl-color-primary-700);
+}
+.business-hrms-text17 {
+  color: #fdfdfd;
+}
+.business-hrms-text18 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text20 {
+  color: var(--dl-color-primary-700);
+}
+.business-hrms-text22 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text23 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text24 {
+  color: rgb(253, 253, 253);
+  padding: 0.5rem;
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-text25 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text27 {
+  color: var(--dl-color-primary-700);
+}
+.business-hrms-text29 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text31 {
+  color: var(--dl-color-primary-700);
+}
+.business-hrms-text33 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text35 {
+  color: var(--dl-color-primary-700);
+}
+.business-hrms-text37 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text39 {
+  color: var(--dl-color-primary-700);
+}
+.business-hrms-label {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-text41 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-profile-pic {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.business-hrms-text42 {
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.business-hrms-textinput {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-textinput01 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-textinput02 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-textinput03 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-textinput04 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-textinput05 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.business-hrms-textinput06 {
+  flex: 0;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: Alegreya Sans SC;
   margin-bottom: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
-  justify-content: center;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 1px;
 }
-.personal-credentials-text15 {
-  color: rgb(255, 255, 255);
-  width: var(--dl-size-size-medium);
-  font-size: 22px;
-  font-style: normal;
-  text-align: center;
-  font-family: Alegreya Sans SC;
-  font-weight: 400;
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-twounits);
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-.personal-credentials-container06 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-halfunit);
-  align-items: flex-start;
-  margin-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.personal-credentials-text16 {
-  color: rgb(249, 248, 248);
-  padding: 0.5rem;
+.business-hrms-textinput07 {
+  flex: 0;
   font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
+  align-self: flex-start;
   text-align: left;
   font-family: Alegreya Sans SC;
-  font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-text17 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text18 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-profile-pic {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-profile-pic1 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: 0px;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-container07 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.personal-credentials-text21 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
+.business-hrms-textinput08 {
+  flex: 0;
   font-size: 18px;
   align-self: flex-start;
-  font-style: normal;
   text-align: left;
   font-family: Alegreya Sans SC;
-  font-weight: 300;
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-text22 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
+.business-hrms-textinput09 {
+  flex: 0;
   font-size: 18px;
   align-self: flex-start;
-  font-style: normal;
   text-align: left;
   font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text23 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-link {
-  color: rgb(9, 255, 251);
-  padding: 0.5rem;
-  margin-top: 0px;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.personal-credentials-text24 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-container08 {
-  flex: 0 0 auto;
-  width: auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: center;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
   margin-bottom: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
-  justify-content: center;
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 1px;
 }
-.personal-credentials-text25 {
-  color: rgb(255, 255, 255);
-  width: var(--dl-size-size-medium);
-  font-size: 22px;
-  font-style: normal;
-  text-align: center;
-  font-family: Alegreya Sans SC;
-  font-weight: 400;
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-twounits);
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-.personal-credentials-container09 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-halfunit);
-  align-items: flex-start;
-  margin-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.personal-credentials-text26 {
-  color: rgb(249, 248, 248);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
+.business-hrms-button {
+  transition: 0.3s;
+  border-color: var(--dl-color-primary-700);
+  border-radius: var(--dl-radius-radius-radius8);
   margin-bottom: var(--dl-space-space-unit);
 }
-.personal-credentials-text27 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text28 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-profile-pic2 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-profile-pic3 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: 0px;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-container10 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.personal-credentials-text31 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text32 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text33 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-link1 {
-  color: rgb(9, 255, 251);
-  padding: 0.5rem;
-  margin-top: 0px;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.personal-credentials-text34 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-button {
-  color: rgb(255, 255, 255);
-  font-size: 23px;
-  align-self: center;
-  margin-top: var(--dl-space-space-halfunit);
-  font-family: Alegreya Sans SC;
-  border-radius: 56px;
-  margin-bottom: var(--dl-space-space-halfunit);
-  background-color: rgb(0, 0, 0);
-}
-.personal-credentials-container11 {
-  flex: 0 0 auto;
-  width: 48%;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-}
-.personal-credentials-centered-container2 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  max-width: auto;
-  align-items: flex-end;
-  margin-bottom: var(--dl-space-space-twounits);
-  flex-direction: column;
-  justify-content: space-between;
-}
-.personal-credentials-text35 {
-  color: rgb(255, 255, 255);
-  font-size: 23px;
-  align-self: center;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-  text-decoration: underline;
-}
-.personal-credentials-form1 {
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: center;
-  margin-top: var(--dl-space-space-halfunit);
-  align-items: center;
-  margin-bottom: var(--dl-space-space-halfunit);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-halfunit);
-  justify-content: center;
-}
-.personal-credentials-text36 {
-  color: rgb(255, 255, 255);
-  font-style: italic;
-  font-family: Alegreya Sans SC;
-  font-weight: 100;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.personal-credentials-text38 {
-  color: var(--dl-color-primary-700);
-}
-.personal-credentials-container12 {
-  flex: 0 0 auto;
-  width: auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: center;
-  justify-content: center;
-}
-.personal-credentials-container13 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-halfunit);
-  align-items: flex-start;
-  margin-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.personal-credentials-text40 {
-  color: rgb(249, 248, 248);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text41 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text42 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-unit);
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-text44 {
-  color: var(--dl-color-primary-700);
-}
-.personal-credentials-profile-pic4 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  margin-bottom: 0px;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-}
-.personal-credentials-profile-pic5 {
-  color: rgb(253, 253, 253);
-  font-size: 18px;
-  align-self: flex-end;
-  font-style: normal;
-  text-align: right;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  padding-top: 0rem;
-  padding-left: 1rem;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-  padding-right: 1rem;
-  padding-bottom: 0rem;
-}
-.personal-credentials-container14 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.personal-credentials-text49 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text50 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-text51 {
-  color: rgb(253, 253, 253);
-  padding: 0.5rem;
-  font-size: 18px;
-  align-self: flex-start;
-  font-style: normal;
-  text-align: left;
-  font-family: Alegreya Sans SC;
-  font-weight: 300;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.personal-credentials-image1 {
+
+.business-hrms-image1 {
   width: 100px;
   object-fit: cover;
 }
-.personal-credentials-footer {
+.business-hrms-button1 {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  font-family: Alegreya Sans SC;
+  font-weight: 400;
+  border-radius: 56px;
+  background-color: rgb(0, 0, 0);
+}
+.business-hrms-footer {
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-twounits);
   max-width: auto;
   align-items: center;
-  padding-top: var(--dl-space-space-threeunits);
+  padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.personal-credentials-text52 {
+.business-hrms-text43 {
   font-family: Alegreya Sans SC;
 }
-.personal-credentials-text53 {
+.business-hrms-text44 {
   font-family: Alegreya Sans SC;
 }
 @media(max-width: 1600px) {
-  .personal-credentials-navlink {
+  .business-hrms-navlink {
     font-size: 26px;
     font-style: inherit;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .personal-credentials-navlink1 {
+  .business-hrms-navlink2 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-text {
+  .business-hrms-text {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-text01 {
+  .business-hrms-text01 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-dropdown-toggle {
+  .business-hrms-dropdown-toggle {
     color: #f9f8f8;
     border-radius: 56px;
     background-color: #040000;
   }
-  .personal-credentials-text02 {
+  .business-hrms-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 500;
   }
-  .personal-credentials-dropdown-list {
+  .business-hrms-dropdown-list {
     display: none;
     border-radius: 5px;
   }
-  .personal-credentials-view-profile1 {
+  .business-hrms-view-credentials1 {
     font-size: 16px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-logout1 {
+  .business-hrms-logout1 {
     font-size: 16px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-credentials {
+  .business-hrms-signup-form {
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .personal-credentials-text08 {
+  .business-hrms-text08 {
     color: #ffffff;
     font-size: 32px;
     align-self: center;
@@ -968,109 +736,85 @@
   }
 }
 @media(max-width: 1200px) {
-  .personal-credentials-navlink {
+  .business-hrms-navlink {
     font-size: 26px;
     font-style: inherit;
     font-family: Alegreya Sans SC;
     font-weight: 400;
   }
-  .personal-credentials-navlink1 {
+  .business-hrms-navlink1 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-navlink2 {
+  .business-hrms-navlink2 {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-text {
+  .business-hrms-text {
     font-size: 18px;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-text01 {
+  .business-hrms-text01 {
     font-size: 18px;
   }
-  .personal-credentials-dropdown-toggle {
+  .business-hrms-dropdown-toggle {
     color: #f7f6f6;
     border-radius: 56px;
     background-color: #040000;
   }
-  .personal-credentials-text02 {
+  .business-hrms-text02 {
     font-size: 18px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 500;
   }
-  .personal-credentials-view-profile1 {
+  .business-hrms-view-credentials1 {
     font-size: 16px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 500;
   }
-  .personal-credentials-logout1 {
+  .business-hrms-logout1 {
     font-size: 16px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 500;
   }
-  .personal-credentials-text08 {
+  .business-hrms-text08 {
     color: rgb(255, 255, 255);
     font-size: 32px;
     align-self: center;
     text-align: left;
     font-family: Alegreya Sans SC;
   }
-  .personal-credentials-centered-container {
+  .business-hrms-centered-container {
     align-items: center;
     justify-content: center;
   }
-  .personal-credentials-centered-container1 {
-    align-items: center;
-    justify-content: center;
-  }
-  .personal-credentials-form {
+  .business-hrms-form {
     width: 100%;
     align-self: stretch;
   }
-  .personal-credentials-centered-container2 {
-    align-items: center;
-    justify-content: center;
-  }
-  .personal-credentials-form1 {
-    width: 100%;
-    align-self: stretch;
-  }
-  .personal-credentials-footer {
+  .business-hrms-footer {
     background-color: #ffffff;
   }
-  .personal-credentials-text52 {
+  .business-hrms-text43 {
     font-size: 26px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 700;
     text-transform: capitalize;
   }
-  .personal-credentials-text53 {
+  .business-hrms-text44 {
     color: #000000;
     font-family: Alegreya Sans SC;
   }
 }
 @media(max-width: 991px) {
-  .personal-credentials-centered-container {
+  .business-hrms-centered-container {
     justify-content: flex-start;
   }
-  .personal-credentials-centered-container1 {
-    justify-content: flex-start;
-  }
-  .personal-credentials-form {
-    width: 100%;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .personal-credentials-centered-container2 {
-    justify-content: flex-start;
-  }
-  .personal-credentials-form1 {
+  .business-hrms-form {
     width: 100%;
     align-self: center;
     align-items: center;
@@ -1078,74 +822,74 @@
   }
 }
 @media(max-width: 767px) {
-  .personal-credentials-navbar-interactive {
+  .business-hrms-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .personal-credentials-desktop-menu {
+  .business-hrms-desktop-menu {
     display: none;
   }
-  .personal-credentials-navlink1 {
+  .business-hrms-navlink2 {
     margin-left: var(--dl-space-space-unit);
   }
-  .personal-credentials-text {
+  .business-hrms-text {
     margin-left: var(--dl-space-space-unit);
   }
-  .personal-credentials-text01 {
+  .business-hrms-text01 {
     margin-left: var(--dl-space-space-unit);
   }
-  .personal-credentials-btn-group {
+  .business-hrms-btn-group {
     display: none;
   }
-  .personal-credentials-view-profile1 {
+  .business-hrms-view-credentials1 {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 500;
   }
-  .personal-credentials-logout1 {
+  .business-hrms-logout1 {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-style: normal;
     font-family: Alegreya Sans SC;
     font-weight: 500;
   }
-  .personal-credentials-burger-menu {
+  .business-hrms-burger-menu {
     display: flex;
   }
-  .personal-credentials-credentials {
+  .business-hrms-signup-form {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .personal-credentials-footer {
+  .business-hrms-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .personal-credentials-text53 {
+  .business-hrms-text44 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .personal-credentials-navbar-interactive {
+  .business-hrms-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .personal-credentials-mobile-menu {
+  .business-hrms-mobile-menu {
     padding: 16px;
   }
-  .personal-credentials-credentials {
+  .business-hrms-signup-form {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .personal-credentials-footer {
+  .business-hrms-footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .personal-credentials-text53 {
+  .business-hrms-text44 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

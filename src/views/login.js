@@ -27,10 +27,10 @@ const Login = (props) => {
             data-role="Nav"
             className="login-nav"
           >
-            <Link to="/personal-signup1" className="login-navlink1">
+            <Link to="/personal-profile" className="login-navlink1">
               For Individuals
             </Link>
-            <Link to="/personal-signup12" className="login-navlink2">
+            <Link to="/personal-hrms" className="login-navlink2">
               For Business
             </Link>
             <span className="login-text">Features</span>

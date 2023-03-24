@@ -30,11 +30,11 @@ const PersonalProfile = (props) => {
             data-role="Nav"
             className="personal-profile-nav"
           >
-            <Link to="/personal-signup1" className="personal-profile-navlink1">
-              For Individuals
-            </Link>
-            <Link to="/personal-signup12" className="personal-profile-navlink2">
+            <Link to="/personal-hrms" className="personal-profile-navlink1">
               For Business
+            </Link>
+            <Link to="/personal-profile" className="personal-profile-navlink2">
+              For Individuals
             </Link>
             <span className="personal-profile-text">Features</span>
             <span className="personal-profile-text01">Contact Us</span>
@@ -75,7 +75,7 @@ const PersonalProfile = (props) => {
                   className="personal-profile-dropdown-toggle1"
                 >
                   <Link
-                    to="/personal-signup11"
+                    to="/personal-credentials"
                     className="personal-profile-view-credentials1"
                   >
                     View Credentials

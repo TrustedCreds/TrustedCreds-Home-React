@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import Home from './views/home'
-import BusinessHRMS from './views/business-h-r-m-s'
+import BusinessHRMS from './views/business-hrms'
 import PersonalProfile from './views/personal-profile'
 import PersonalSignup from './views/personal-signup'
 import PersonalCredentials from './views/personal-credentials'
@@ -17,18 +17,18 @@ const App = () => {
     <Router>
       <div>
         <Route component={Home} exact path="/" />
-        <Route component={BusinessHRMS} exact path="/personal-signup12" />
-        <Route component={PersonalProfile} exact path="/personal-signup1" />
+        <Route component={BusinessHRMS} exact path="/personal-hrms" />
+        <Route component={PersonalProfile} exact path="/personal-profile" />
         <Route component={PersonalSignup} exact path="/personal-signup" />
         <Route
           component={PersonalCredentials}
           exact
-          path="/personal-signup11"
+          path="/personal-credentials"
         />
         <Route
           component={BusinessTrustCenter}
           exact
-          path="/personal-signup111"
+          path="/business-trustcenter"
         />
         <Route component={BusinessSignup} exact path="/business-signup" />
         <Route component={Login} exact path="/login" />

@@ -27,10 +27,10 @@ const Home = (props) => {
             data-role="Nav"
             className="home-nav"
           >
-            <Link to="/personal-signup1" className="home-navlink1">
+            <Link to="/personal-profile" className="home-navlink1">
               For Individuals
             </Link>
-            <Link to="/personal-signup12" className="home-navlink2">
+            <Link to="/personal-hrms" className="home-navlink2">
               For Business
             </Link>
             <span className="home-text">Features</span>
